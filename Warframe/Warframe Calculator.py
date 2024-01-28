@@ -63,7 +63,7 @@ if True:
 
 
 def save_pickle(path, data1):
-    pkl_file = open('Pickles/' + path + '.pkl', 'wb')
+    pkl_file = open(path + '.pkl', 'wb')
     pickle.dump(data1, pkl_file)
     # Pickle the list using the highest protocol available.
     # pickle.dump(data1, output, -1)
@@ -72,7 +72,7 @@ def save_pickle(path, data1):
 
 def load_pickle(path):
     try:
-        pkl_file = open('Pickles/' + path + '.pkl', 'rb')
+        pkl_file = open(path + '.pkl', 'rb')
         data1 = pickle.load(pkl_file)
         # pprint.pprint(data1)
     except:
