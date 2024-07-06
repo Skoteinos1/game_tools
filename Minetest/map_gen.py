@@ -9,16 +9,17 @@ import os
 # 2. Make sure you are facing North and find out your position
 # 3. Make sure your map is not obstructed
 # 4. Run the code
-# 5. It will take screenshot
+# 5. It will take screenshot, crop the image, remove pointers, paste it into your GAME_NAME_x.png image and make GAME_NAME_x+1.png
 # Enjoy
 
 cor_x = 255
 cor_y = -377
-game_name = 'GAME_NAME_'
+game_name = 'GAME_NAME_'  # In case you play multiple maps
 
 # pyautogui.moveTo(pos[0] + pos[1], pos[2] + pos[3])
 # print(pyautogui.position())
 
+# Location of minimap on your screen
 x1 = 1658
 y1 = 48
 x2 = 1900
