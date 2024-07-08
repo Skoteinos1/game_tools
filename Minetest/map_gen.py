@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw
 import pyautogui
 import os
 
-# 1. Make empty GAME_NAME_.png image with dimensions 2000x2000. It was designed for coords between -1000 - 1000
+# 1. Make empty GAME_NAME_.png image with desired dimensions... like 2000x2000.
 #   It can work fith larger maps, but you have to adjust few numbers down the line
 # 2. Make sure you are facing North and find out your position
 # 3. Make sure your map is not obstructed
@@ -24,6 +24,10 @@ x1 = 1658
 y1 = 48
 x2 = 1900
 y2 = 290
+# Length of side of map devided by 2.
+# For example if you want your map to be for coordinates between -1000 and +1000, create empty image with size of 2000x2000 pixels
+# and enter 1000 here
+side_of_map = 1000
 
 # Screenshot / Open the input image as numpy array, convert to RGB
 img = pyautogui.screenshot()
