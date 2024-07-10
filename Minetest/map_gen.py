@@ -32,3 +32,12 @@ side_of_map = 1000
 # Screenshot / Open the input image as numpy array, convert to RGB
 img = pyautogui.screenshot()
 img = img.crop((x1, y1, x2, y2))
+# img.show()  # Shows the image in image viewer
+
+npImage = np.array(img)
+h,w = img.size
+
+# Create same size alpha layer with circle
+alpha = Image.new('a', img.size,0)
+draw = ImageDraw.Draw(alpha)
+draw.pieslice([0,0,h,w],0,360,fill=255)
