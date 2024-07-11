@@ -41,3 +41,9 @@ h,w = img.size
 alpha = Image.new('a', img.size,0)
 draw = ImageDraw.Draw(alpha)
 draw.pieslice([0,0,h,w],0,360,fill=255)
+
+# Convert alpha Image to numpy array
+npAlpha=np.array(alpha)
+
+# Add alpha layer to RGB
+npImage = np.dstack((npImage,npAlpha))
