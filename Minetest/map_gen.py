@@ -47,3 +47,10 @@ npAlpha=np.array(alpha)
 
 # Add alpha layer to RGB
 npImage = np.dstack((npImage,npAlpha))
+
+# Save with alpha
+# Image.fromarray(npImage).save('result.png')
+# img = Image.open('result.png').convert('RGBA') 
+  
+# Extracting the image data & creating an numpy array out of it 
+img_arr = np.array(npImage)  # Somehow dstacked arrays ar not arrays
