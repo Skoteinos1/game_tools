@@ -54,3 +54,7 @@ npImage = np.dstack((npImage,npAlpha))
   
 # Extracting the image data & creating an numpy array out of it 
 img_arr = np.array(npImage)  # Somehow dstacked arrays ar not arrays
+
+# Transparent rectangles
+img_arr[108 : 134, 113 : 129] = (0, 0, 0, 0) 
+img_arr[0 : 11, 114 : 129] = (0, 0, 0, 0)
