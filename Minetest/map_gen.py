@@ -58,3 +58,9 @@ img_arr = np.array(npImage)  # Somehow dstacked arrays ar not arrays
 # Transparent rectangles
 img_arr[108 : 134, 113 : 129] = (0, 0, 0, 0) 
 img_arr[0 : 11, 114 : 129] = (0, 0, 0, 0)
+
+# Open and convert to RGBA 
+frontImage = Image.fromarray(img_arr).convert("RGBA") 
+for i in range(100):
+    if not os.path.exists(game_name+str(i)+'.png'):
+        break
