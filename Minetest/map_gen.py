@@ -64,3 +64,8 @@ frontImage = Image.fromarray(img_arr).convert("RGBA")
 for i in range(100):
     if not os.path.exists(game_name+str(i)+'.png'):
         break
+i-=1
+background = Image.open(game_name+str(i)+'.png').convert("RGBA") 
+
+x_fix = int((x2-x1)/2)
+y_fix = int((y2-y1)/2)
