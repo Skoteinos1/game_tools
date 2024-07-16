@@ -69,3 +69,8 @@ background = Image.open(game_name+str(i)+'.png').convert("RGBA")
 
 x_fix = int((x2-x1)/2)
 y_fix = int((y2-y1)/2)
+# Paste the frontImage at coords
+background.paste(frontImage, (cor_x+side_of_map-x_fix, (cor_y*-1)+side_of_map-y_fix), frontImage)   
+
+# Save 
+background.save(game_name+str(i+1)+'.png', format="png")
