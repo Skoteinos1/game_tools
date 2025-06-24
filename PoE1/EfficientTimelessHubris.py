@@ -9,6 +9,43 @@
 # 3. We store data, so we don't have to scrap them again
 # 4. Get list of jewels which are cheap and best for you from that trade list.
 
+import pickle
+from urllib.request import urlopen as uReq
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from bs4 import BeautifulSoup as soup
+import time
+import random
+
+
+# Path to folder, because debug mode fails without this
+pth = ''
+
+def save_pickle(file, data1):
+    if '.pkl' not in file:
+        file += '.pkl'
+    pkl_file = open(pth + file, 'wb')
+    pickle.dump(data1, pkl_file)
+    pkl_file.close()
+
+
+def load_pickle(fl_nm):
+    if '.pkl' not in fl_nm:
+        fl_nm += '.pkl'
+    try:
+        pkl_file = open(pth + fl_nm, 'rb')
+        data1 = pickle.load(pkl_file)
+        pkl_file.close()
+    except:
+        print('Missing pickle table:', fl_nm)
+        # pkl_file = open(file, 'wb')
+        data1 = ''
+        save_pickle(fl_nm, data1)
+    return data1
+
 
 # Enter text from PoE trade:
 trade_text = """
@@ -1320,6 +1357,89 @@ for i in range(len(trade_text)):
         trade_list.append(entry)
         entry = ['','']
 
-print(trade_list)
+# print(trade_list)
+
+# Load pickle with previous data, so we don't have to scrap them again.
+hubris_data = load_pickle('hubris_data')
+if not hubris_data:
+    hubris_data = {}
+
+# open browser
+def initiate_browser():
+    global driver
+    # profile = webdriver.FirefoxProfile()
+    # profile.set_preference("privacy.donottrackheader.enabled", True)  # DoNotTrack
+    # profile.set_preference("privacy.donottrackheader.value", 1)
+    # profile.set_preference("general.useragent.override", "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:61.0) Gecko/20100101 Firefox/106.0")
+    #                        "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 selenium.py")
+    # profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', False)  # You would also like to block flash
+    # profile.set_preference("media.peerconnection.enabled", False)  # WebRTC
+    # driver = webdriver.Firefox(firefox_profile=profile)
+    # driver = webdriver.Firefox()
+    # driver.set_window_size(1298, 1012)
+
+    options = Options()
+    
+    # Set preferences directly on the profile via options
+    # options.set_preference("privacy.donottrackheader.value", 1)
+    # options.set_preference("media.peerconnection.enabled", False)
+
+    options.set_preference("privacy.donottrackheader.enabled", True)  # DoNotTrack
+    options.set_preference("privacy.donottrackheader.value", 1)
+    options.set_preference("general.useragent.override", "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:61.0) Gecko/20100101 Firefox/106.0")
+    #                        "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 selenium.py")
+    options.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', False)  # You would also like to block flash
+    options.set_preference("media.peerconnection.enabled", False)  # WebRTC
+
+    # You can add headless mode if needed
+    # options.headless = True  # Uncomment if you want to run in headless mode
+
+    driver = webdriver.Firefox(options=options)
+    return driver
+
+# initiate_browser()
+page_url = 'https://vilsol.github.io/timeless-jewels/tree?jewel=5&conqueror=Victario&seed=10000&location=60735&mode=seed'
+# driver.get(page_url)
+
+foo = input("Select Jewel socket and press Enter")
+
+# socket = driver.current_url.split('location=')
+socket = page_url.split('location=')
+socket = socket[1].replace('&mode=seed', '')
+
+seed = driver.find_element(By.XPATH, "/html/body/div/div[1]/div[2]/div/div[5]/input")
+
+# get the data:
+for jewel in trade_list:
+    coins = jewel[0].split(' ')[0]
+    if coins not in hubris_data:
+        hubris_data[coins] = {}
+    if socket not in hubris_data[coins]:
+        print(coins, socket)
+
+        # GET DATA
+        seed.send_keys(coins)
+        
+        # Wait
+        time.sleep(500)
+        
+        # Get data
+        page_html = driver.page_source
+        page_soup = soup(page_html, "html.parser")
+        notes = page_soup.find("ul", {"class": 'mt-1 svelte-9h6fz6 rainbow'}).text
+        if notes:
+            hubris_data[coins][socket] = notes
+
+        time.sleep(1+ random.randint(1, 2000))
+
+        seed.send_keys(Keys.CONTROL + 'a', Keys.BACKSPACE)
+
+
+
+
+
+
+
+
 
 
