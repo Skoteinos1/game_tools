@@ -1378,12 +1378,9 @@ for i in range(len(trade_text)):
         entry = ['','']
 
 # To Download EE
-for i in range(2000, 160000, 20):
+for i in range(2000, 160000, 20): # 160000
     entry = [str(i) + ' Victario','200 chaosChaos Orb']
-    # trade_list.append(entry)
-    
-
-# print(trade_list)
+    trade_list.append(entry)
 
 # Load pickle with previous data, so we don't have to scrap them again.
 hubris_data = load_pickle('hubris_data')
@@ -1393,23 +1390,11 @@ if not hubris_data:
 # open browser
 def initiate_browser():
     global driver
-    # profile = webdriver.FirefoxProfile()
-    # profile.set_preference("privacy.donottrackheader.enabled", True)  # DoNotTrack
-    # profile.set_preference("privacy.donottrackheader.value", 1)
-    # profile.set_preference("general.useragent.override", "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:61.0) Gecko/20100101 Firefox/106.0")
-    #                        "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 selenium.py")
-    # profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', False)  # You would also like to block flash
-    # profile.set_preference("media.peerconnection.enabled", False)  # WebRTC
-    # driver = webdriver.Firefox(firefox_profile=profile)
-    # driver = webdriver.Firefox()
-    # driver.set_window_size(1298, 1012)
-
     options = Options()
     
     # Set preferences directly on the profile via options
     # options.set_preference("privacy.donottrackheader.value", 1)
     # options.set_preference("media.peerconnection.enabled", False)
-
     options.set_preference("privacy.donottrackheader.enabled", True)  # DoNotTrack
     options.set_preference("privacy.donottrackheader.value", 1)
     options.set_preference("general.useragent.override", "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:61.0) Gecko/20100101 Firefox/106.0")
@@ -1419,7 +1404,6 @@ def initiate_browser():
 
     # You can add headless mode if needed
     # options.headless = True  # Uncomment if you want to run in headless mode
-
     driver = webdriver.Firefox(options=options)
     return driver
 
@@ -1432,8 +1416,6 @@ socket = 60735
 # page_url = 'https://vilsol.github.io/timeless-jewels/tree?jewel=5&conqueror=Victario&seed=10000&location=60735&mode=seed'
 page_url = f'https://vilsol.github.io/timeless-jewels/tree?jewel=5&conqueror=Victario&seed=10000&location={socket}&mode=seed'
 
-# start_browser = True
-# start_browser = False
 browser_started = False
 
 socket = page_url.split('location=')
@@ -1528,11 +1510,6 @@ for jewel in trade_list:
                 pass
         best_jewels_lst.append([score, coins, socket, jewel])
 
-        # print(mods)
-    # counter += 1
-    # if counter > 2:
-    #     break
-
 best_jewels_lst = sorted(best_jewels_lst, key=lambda x: x[0], reverse=True)
 
 s = ""
@@ -1567,18 +1544,3 @@ for ln in s:
     else:
         print(ln)
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
