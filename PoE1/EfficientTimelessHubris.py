@@ -62,9 +62,35 @@ Commissioned 100000 coins to commemorate Cadiro
 Asking Price:
 200×chaosChaos Orb
 
-
-
- Elegant Hubris
+Showing 100 results (10000+ matched)
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 63480 coins to commemorate Caspiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+5×chaosChaos Orb
+moeboo#4162 listed 2 minutes ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 41120 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+9×chaosChaos Orb
+bradbob#1650 listed 12 minutes ago
+Online
+Verified
+Elegant Hubris
 Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
@@ -74,8 +100,21 @@ Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
 10×chaosChaos Orb
-ViviAnGoldenLucky#1214 listed 3 hours ago
+ViviAnGoldenLucky#1214 listed 4 hours ago
 AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 22840 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+10×chaosChaos Orb
+Spokuwu#3608 listed 22 minutes ago
+Online
 Verified
 Elegant Hubris
 Timeless Jewel
@@ -87,7 +126,7 @@ Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
 12×chaosChaos Orb
-r0kudo#5246 listed 17 hours ago
+r0kudo#5246 listed 18 hours ago
 Online
 Verified
 Elegant Hubris
@@ -100,7 +139,7 @@ Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
 12×chaosChaos Orb
-r0kudo#5246 listed 17 hours ago
+r0kudo#5246 listed 18 hours ago
 Online
 Verified
 Elegant Hubris
@@ -113,7 +152,46 @@ Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
 12×chaosChaos Orb
-r0kudo#5246 listed 16 hours ago
+r0kudo#5246 listed 17 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 83
+Commissioned 59620 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+15×chaosChaos Orb
+Bentosik#3618 listed 21 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 80
+Commissioned 73180 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+15×chaosChaos Orb
+melas__#2219 listed a day ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 83
+Commissioned 43340 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+15×chaosChaos Orb
+Bentosik#3618 listed 21 hours ago
 Online
 Verified
 Elegant Hubris
@@ -121,12 +199,103 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 22840 coins to commemorate Victario
+Commissioned 140380 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
 15×chaosChaos Orb
-kira_asashi#1418 listed 7 hours ago
+Cruden#7326 listed 13 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 82
+Commissioned 105000 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+15×chaosChaos Orb
+Forever32#6716 listed 18 hours ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 49740 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+15×chaosChaos Orb
+PwnzMao#4389 listed 3 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 139500 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+15×chaosChaos Orb
+아르젠티노#2588 listed 19 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 72180 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+15×chaosChaos Orb
+아르젠티노#2588 listed 19 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 35980 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+15×chaosChaos Orb
+아르젠티노#2588 listed 14 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 83840 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+15×chaosChaos Orb
+아르젠티노#2588 listed 19 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 83
+Commissioned 43740 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+15×chaosChaos Orb
+Bentosik#3618 listed 21 hours ago
 Online
 Verified
 Elegant Hubris
@@ -147,168 +316,12 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 35980 coins to commemorate Cadiro
+Commissioned 46900 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
-15×chaosChaos Orb
-아르젠티노#2588 listed 14 hours ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 139500 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-15×chaosChaos Orb
-아르젠티노#2588 listed 18 hours ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 83
-Commissioned 52400 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-15×chaosChaos Orb
-Horinger#4703 listed 10 minutes ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 72180 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-15×chaosChaos Orb
-아르젠티노#2588 listed 18 hours ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 80
-Commissioned 73180 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-15×chaosChaos Orb
-melas__#2219 listed a day ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 83840 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-15×chaosChaos Orb
-아르젠티노#2588 listed 18 hours ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 83
-Commissioned 43340 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-15×chaosChaos Orb
-Bentosik#3618 listed 21 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 49740 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-15×chaosChaos Orb
-PwnzMao#4389 listed 3 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 140380 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-15×chaosChaos Orb
-Cruden#7326 listed 13 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 83
-Commissioned 43740 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-15×chaosChaos Orb
-Bentosik#3618 listed 21 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 66900 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-15×chaosChaos Orb
-Mamododarky#5995 listed 12 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 117420 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-15×chaosChaos Orb
-zevah86#3144 listed a day ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 83
-Commissioned 59620 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-15×chaosChaos Orb
-Bentosik#3618 listed 20 hours ago
+18×chaosChaos Orb
+bggr21#7174 listed 14 hours ago
 Online
 Verified
 Elegant Hubris
@@ -321,7 +334,7 @@ Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
 18×chaosChaos Orb
-bggr21#7174 listed 13 hours ago
+bggr21#7174 listed 14 hours ago
 Online
 Verified
 Elegant Hubris
@@ -334,33 +347,7 @@ Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
 18×chaosChaos Orb
-bggr21#7174 listed 13 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 46900 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-18×chaosChaos Orb
-bggr21#7174 listed 13 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 60780 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-18×chaosChaos Orb
-bggr21#7174 listed 13 hours ago
+bggr21#7174 listed 14 hours ago
 Online
 Verified
 Elegant Hubris
@@ -373,7 +360,7 @@ Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
 18×chaosChaos Orb
-bggr21#7174 listed 13 hours ago
+bggr21#7174 listed 14 hours ago
 Online
 Verified
 Elegant Hubris
@@ -381,7 +368,20 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 29780 coins to commemorate Victario
+Commissioned 60780 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+18×chaosChaos Orb
+bggr21#7174 listed 14 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 46460 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Asking Price:
@@ -393,13 +393,13 @@ Elegant Hubris
 Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
-Item Level: 80
-Commissioned 117680 coins to commemorate Victario
+Item Level: 84
+Commissioned 103820 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
-Asking Price:
+Exact Price:
 20×chaosChaos Orb
-Snarky85#4985 listed an hour ago
+s778563#7674 listed a day ago
 Online
 Verified
 Elegant Hubris
@@ -407,13 +407,65 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 97360 coins to commemorate Cadiro
+Commissioned 84140 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Asking Price:
 20×chaosChaos Orb
-merfyk#0129 listed 2 days ago
+하아룽#7164 listed 3 days ago
 Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 154600 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+DoubleXypMa#0542 listed 17 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 80
+Commissioned 97140 coins to commemorate Caspiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+friday#0028 listed 2 minutes ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 158640 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+shade72rus#7510 listed a day ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 81860 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
 Verified
 Elegant Hubris
 Timeless Jewel
@@ -426,6 +478,123 @@ Historic
 Exact Price:
 20×chaosChaos Orb
 DoubleXypMa#0542 listed 2 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 80
+Commissioned 45900 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+TalayZaa#6775 listed a day ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 90720 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 71540 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 91840 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+NonExistance#0239 listed 10 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 90360 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 2360 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+Nyiklass_#0723 listed 23 minutes ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 96380 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+하아룽#7164 listed 3 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 35680 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 33840 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+BaronChen#3795 listed 2 days ago
 Online
 Verified
 Elegant Hubris
@@ -446,6 +615,370 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
+Commissioned 118280 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+MegaJigitExploiter#2478 listed 18 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 10660 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+하아룽#7164 listed 3 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 145400 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+lvjiale#7939 listed 4 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 10440 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+DoubleXypMa#0542 listed 2 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 65040 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 53140 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 159200 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+DoubleXypMa#0542 listed 2 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 5120 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 64580 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+하아룽#7164 listed 3 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 139580 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+LostArkBetterAnyway#1391 listed 9 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 26160 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+DoubleXypMa#0542 listed 2 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 83
+Commissioned 46280 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+Reasonator#0773 listed 4 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 108820 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+DoubleXypMa#0542 listed 4 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 98280 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 83
+Commissioned 80360 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+RobloxOneLove#1548 listed a day ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 61220 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+Zivo36#6004 listed 17 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 6460 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+DoubleXypMa#0542 listed 18 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 152020 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 45480 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 45560 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+CxC332#1710 listed 15 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 48740 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+helsag#2821 listed 15 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 73020 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 154260 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+DoubleXypMa#0542 listed 4 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 146200 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+Nyiklass_#0723 listed 23 minutes ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 82
+Commissioned 134420 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+LLcoolpelican#2149 listed a day ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 78600 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 78620 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+lazk#1505 listed 3 minutes ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 98880 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+Nyiklass_#0723 listed 25 minutes ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
 Commissioned 38280 coins to commemorate Cadiro
 Passives in radius are Conquered by the Eternal Empire
 Historic
@@ -459,33 +992,7 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 118620 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-하아룽#7164 listed 3 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 35820 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-하아룽#7164 listed 3 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 124460 coins to commemorate Victario
+Commissioned 11060 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Asking Price:
@@ -498,7 +1005,46 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 43420 coins to commemorate Cadiro
+Commissioned 37240 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 21 hours ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 117440 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+asdasdasdasdf#2831 listed 4 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 22280 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+DoubleXypMa#0542 listed 17 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 131940 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
@@ -511,7 +1057,33 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 76880 coins to commemorate Victario
+Commissioned 14680 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+DoubleXypMa#0542 listed 16 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 90900 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 101140 coins to commemorate Cadiro
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Asking Price:
@@ -537,72 +1109,7 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 10440 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 2 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 45560 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-CxC332#1710 listed 14 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 31760 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 16 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 2680 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 80
-Commissioned 42340 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-ton0149433601#1457 listed a day ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 145300 coins to commemorate Cadiro
+Commissioned 147700 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
@@ -615,12 +1122,12 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 133100 coins to commemorate Victario
+Commissioned 135280 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
-Exact Price:
+Asking Price:
 20×chaosChaos Orb
-lvjiale#7939 listed a day ago
+하아룽#7164 listed 3 days ago
 Online
 Verified
 Elegant Hubris
@@ -628,25 +1135,12 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 103820 coins to commemorate Victario
+Commissioned 158400 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
 20×chaosChaos Orb
-s778563#7674 listed a day ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 82
-Commissioned 134420 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-LLcoolpelican#2149 listed a day ago
+Nyiklass_#0723 listed 25 minutes ago
 Online
 Verified
 Elegant Hubris
@@ -654,7 +1148,7 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 81860 coins to commemorate Cadiro
+Commissioned 124460 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Asking Price:
@@ -666,13 +1160,26 @@ Elegant Hubris
 Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
-Item Level: 80
-Commissioned 133540 coins to commemorate Cadiro
+Item Level: 84
+Commissioned 86720 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 64920 coins to commemorate Cadiro
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
 20×chaosChaos Orb
-steven25691837#0289 listed a day ago
+Kalthu#7594 listed 7 minutes ago
 Online
 Verified
 Elegant Hubris
@@ -680,7 +1187,85 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 90900 coins to commemorate Cadiro
+Commissioned 82640 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+Nyiklass_#0723 listed 25 minutes ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 136080 coins to commemorate Cadiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+DoubleXypMa#0542 listed 2 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 124720 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+DoubleXypMa#0542 listed 3 days ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 89240 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Asking Price:
+20×chaosChaos Orb
+CtenawaReturn#6784 listed 2 days ago
+AFK
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 153680 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+Nyiklass_#0723 listed 25 minutes ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 82
+Commissioned 146480 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+niponiponi#9065 listed 17 hours ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 128320 coins to commemorate Cadiro
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
@@ -706,306 +1291,7 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 90360 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 90720 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 82
-Commissioned 96960 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-Les_Larmes_du_Styx#1908 listed 18 minutes ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 136080 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 2 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 131940 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed a day ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 89620 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 138740 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed a day ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 47720 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-하아룽#7164 listed 3 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 91840 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-NonExistance#0239 listed 10 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 30540 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 3 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 28740 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 147700 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 3 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 90900 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 124720 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 3 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 42200 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 92020 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-하아룽#7164 listed 3 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 66580 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-MoistKoalaBalls#3504 listed a day ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 96380 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-하아룽#7164 listed 3 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 6460 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 17 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 42640 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-하아룽#7164 listed 3 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 128320 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 2 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 118280 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-MegaJigitExploiter#2478 listed 17 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 70800 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 2 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 124640 coins to commemorate Victario
+Commissioned 133100 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
@@ -1018,20 +1304,7 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 29900 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 138440 coins to commemorate Victario
+Commissioned 118620 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Asking Price:
@@ -1044,12 +1317,12 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 33840 coins to commemorate Victario
+Commissioned 83400 coins to commemorate Cadiro
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Exact Price:
 20×chaosChaos Orb
-BaronChen#3795 listed 2 days ago
+PwnzMao#4389 listed 2 days ago
 Online
 Verified
 Elegant Hubris
@@ -1057,137 +1330,7 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 152020 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 80
-Commissioned 8740 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-Morfs#4165 listed a day ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 15240 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-KonqweCrew#3836 listed a day ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 108820 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-BladSols#6362 listed 6 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 37240 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 20 hours ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 93200 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 136640 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 4 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 157760 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 17 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 31580 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 19 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 26160 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 2 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 95020 coins to commemorate Victario
+Commissioned 17880 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Asking Price:
@@ -1200,170 +1343,26 @@ Timeless Jewel
 Limited to: 1 Historic
 Radius: Large
 Item Level: 84
-Commissioned 45480 coins to commemorate Cadiro
+Commissioned 31280 coins to commemorate Victario
+Passives in radius are Conquered by the Eternal Empire
+Historic
+Exact Price:
+20×chaosChaos Orb
+lazk#1505 listed 3 minutes ago
+Online
+Verified
+Elegant Hubris
+Timeless Jewel
+Limited to: 1 Historic
+Radius: Large
+Item Level: 84
+Commissioned 70060 coins to commemorate Victario
 Passives in radius are Conquered by the Eternal Empire
 Historic
 Asking Price:
 20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
+00miguel00#5724 listed a day ago
 AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 39640 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 16 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 73020 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 138480 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-하아룽#7164 listed 3 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 133980 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 4 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 14680 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 16 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 154600 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-DoubleXypMa#0542 listed 17 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 98280 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 58600 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-Môjoman85#7205 listed 16 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 42340 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-Falko#2616 listed 2 hours ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 117440 coins to commemorate Cadiro
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Exact Price:
-20×chaosChaos Orb
-asdasdasdasdf#2831 listed 4 days ago
-Online
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 11060 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-CtenawaReturn#6784 listed 2 days ago
-AFK
-Verified
-Elegant Hubris
-Timeless Jewel
-Limited to: 1 Historic
-Radius: Large
-Item Level: 84
-Commissioned 10660 coins to commemorate Victario
-Passives in radius are Conquered by the Eternal Empire
-Historic
-Asking Price:
-20×chaosChaos Orb
-하아룽#7164 listed 3 days ago
-Online
-© 2010 - 2025 Grinding Gear Games
 
 """
 
