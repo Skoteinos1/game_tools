@@ -2685,7 +2685,7 @@ for i in range(len(trade_text)):
         entry = ['','']
 
 # To Download EE
-for i in range(2000, 160020, 20): # 160000
+for i in range(2000, 97880, 20): # 160020
     entry = [str(i) + ' Victario','200 chaosChaos Orb']
     trade_list.append(entry)
 
