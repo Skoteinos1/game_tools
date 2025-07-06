@@ -1460,7 +1460,9 @@ hide_scepters = ''' "Driftwood Sceptre" "Darkwood Sceptre" "Bronze Sceptre" "Qua
 hide_staves = ''' "Gnarled Branch" "Primitive Staff" "Long Staff" "Royal Staff" "Crescent Staff" "Woodful Staff" "Quarterstaff" "Highborn Staff" "Moon Staff" "Primordial Staff" "Lathi"'''
 # Thrusting One Hand Swords
 hide_tohswords = ''' "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Pecoraro" "Spiraled Foil" "Vaal Rapier" "Jewelled Foil"'''
-      
+# Two Hand Axes
+hide_thaxes = ''' "Stone Axe" "Jade Chopper" "Woodsplitter" "Poleaxe" "Double Axe" "Gilded Axe" "Shadow Axe" "Dagger Axe" "Jasper Chopper" "Timber Axe" "Headsman Axe" "Labrys" "Noble Axe" "Abyssal Axe" "Talon Axe" "Ezomyte Axe" "Despot Axe"'''
+         
 
 
 hide_weapons = f"""
@@ -1549,39 +1551,13 @@ Hide
 	Identified False
 	Mirrored False
 	SynthesisedItem False
-	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords}
+	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes}
 	ItemLevel <= 85
 	SetFontSize 30
 	DisableDropSound True
 
 
-Hide
-	Rarity Rare
-        AnyEnchantment False
-        Corrupted False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        Mirrored False
-        SynthesisedItem False
-	Class == "Two Hand Axes"
-        BaseType == "Stone Axe" "Jade Chopper" "Woodsplitter" "Poleaxe" "Double Axe" "Gilded Axe" "Shadow Axe" "Dagger Axe" "Jasper Chopper" "Timber Axe" "Headsman Axe" "Labrys" "Noble Axe" "Abyssal Axe" "Talon Axe" "Ezomyte Axe" "Despot Axe"
-        ItemLevel <= 85
-        SetFontSize 30
-	DisableDropSound True
 
-Hide
-	Rarity Rare
-        Corrupted True
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        Mirrored False
-        SynthesisedItem False
-        Class == "Two Hand Axes"
-        BaseType == "Stone Axe" "Jade Chopper" "Woodsplitter" "Poleaxe" "Double Axe" "Gilded Axe" "Shadow Axe" "Dagger Axe" "Jasper Chopper" "Timber Axe" "Headsman Axe" "Labrys" "Noble Axe" "Abyssal Axe" "Talon Axe" "Ezomyte Axe" "Despot Axe"
-	ItemLevel < 70
 
 Hide
 	Rarity Rare
@@ -1592,7 +1568,7 @@ Hide
 	Identified False
 	Mirrored False
 	SynthesisedItem False
-	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords}
+	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes}
 	ItemLevel < 70
 
 Hide
@@ -1601,34 +1577,18 @@ Hide
 	FracturedItem False
 	HasCruciblePassiveTree False
 	SynthesisedItem False
-	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords}
+	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes}
 	SetFontSize 30
 	DisableDropSound True
 
 
 
-Hide
-	Rarity Magic
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        SynthesisedItem False
-        Class == "Two Hand Axes"
-        BaseType == "Stone Axe" "Jade Chopper" "Woodsplitter" "Poleaxe" "Double Axe" "Gilded Axe" "Shadow Axe" "Dagger Axe" "Jasper Chopper" "Timber Axe" "Headsman Axe" "Labrys" "Noble Axe" "Abyssal Axe" "Talon Axe" "Ezomyte Axe" "Despot Axe"
-	SetFontSize 30
-	DisableDropSound True
 
-Hide
-	Rarity Normal
-	Class == "Two Hand Axes"
-        BaseType == "Stone Axe" "Jade Chopper" "Woodsplitter" "Poleaxe" "Double Axe" "Gilded Axe" "Shadow Axe" "Dagger Axe" "Jasper Chopper" "Timber Axe" "Headsman Axe" "Labrys" "Noble Axe" "Abyssal Axe" "Talon Axe" "Ezomyte Axe" "Despot Axe"
-	SetFontSize 30
-        DisableDropSound True
 
 
 Hide
 	Rarity Normal
-	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords}
+	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes}
 	SetFontSize 30
 	DisableDropSound True
 
@@ -1874,5 +1834,5 @@ Show
 
 s = header + color_text + color_border + color_background + custom1 + currency + gems_jewels + weapon_armour + flasks + maps + don_now_jet + hide + ee
 
-with open("/home/skoty/Desktop/Mess/PoE1/Link to Path of Exile/Strict Code.filter", "w") as f:
+with open("Strict Code.filter", "w") as f:
     f.write(s)
