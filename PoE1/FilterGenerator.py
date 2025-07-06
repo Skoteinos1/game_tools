@@ -4,8 +4,26 @@ show_rgb_tf = True
 show_chaos_farm_tf = True
 # show_chaos_farm_tf = False
 
+show_all_tf = False
+# show_all_tf = True  # If you are in area where there is no map, bud markers are still shown
+
 flask_min_lvl = 74  # 84
 
+beginner_highlights_tf = True
+beginner_highlights_tf = False
+
+stuff_i_look_for_tf = True
+# stuff_i_look_for_tf = False
+
+grp1 = ''' "Fingerless Silk Gloves" "Nexus Gloves" "Sage Gloves" "Warlock Gloves" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia"'''
+grp2 = ''' "Midnight Blade" "Anarchic Spiritblade" "Tiger Hook" "Spiraled Foil" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword" "Lion Sword" "Infernal Sword" "Banishing Blade" "Exquisite Blade"'''
+grp3 = ''' "Crystal Belt" "Mechanical Belt" "Heavy Belt" "Chain Belt" "Stygian Vise" "Micro-Distillery Belt" "Vanguard Belt"'''
+look_for_list = grp1 + grp2 + grp3
+
+quest_tf = False
+quest_tf = True
+
+# --------------------
 
 show_rgb = ""
 if show_rgb_tf:
@@ -26,6 +44,49 @@ if show_chaos_farm_tf:
     Rarity Rare
     Class = "Amulets" "Belts" "Body Armour" "Boots" "Gloves" "Helmets" "Rings" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
     ItemLevel >= 60'''
+
+show_hide = 'Hide'
+if show_all_tf:
+	show_hide = 'Show'
+
+beginner_highlights = ''
+if beginner_highlights_tf:
+	beginner_highlights = '''Show
+	SocketGroup == "RBBB" "RRRG" "BBBG" "RRRB" "RRBG" "GGBR"
+	SetBackgroundColor 123 38 78 255
+
+Show
+	LinkedSockets >= 4
+	SetBackgroundColor 155 138 138 255'''
+
+stuff_i_look_for_bg = ''
+stuff_i_look_for_init = ''
+if stuff_i_look_for_tf:
+    stuff_i_look_for_bg = f'''Show    # Stuff I look for
+        BaseType ={look_for_list}
+        SetBackgroundColor 86 88 29 255
+        MinimapIcon 2 Blue Circle
+        Continue'''
+    stuff_i_look_for_init = f'''Show    # Stuff I look for
+	Rarity Rare
+    BaseType ={look_for_list}'''
+
+
+quest = ''
+if quest_tf:
+	quest = '''
+Show
+    Mirrored True
+    SetBackgroundColor 133 20 46 255 # Wine Red BG  133 20 46
+
+Show
+    FracturedItem True
+    SetBackgroundColor 133 20 46 255 # Wine Red BG  133 20 46
+
+Show
+    SynthesisedItem True
+    SetBackgroundColor 133 20 46 255 # Wine Red BG  133 20 46    
+'''
 
 header = """# https://www.pathofexile.com/item-filter/about
 #============================================================================================================
@@ -222,17 +283,14 @@ Show
 
 """
 
-color_background = """
+color_background = f"""
 # ------------------- Backgrounds --------------------------
+
+{stuff_i_look_for_bg}
+		
 Show
 	Class == "Flask" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Tinctures" "Utility Flasks"
 	SetBackgroundColor 20 90 0 180
-	Continue
-
-Show
-	Class == "Wand" "Wands"
-	SetBackgroundColor 86 88 29 255
-	MinimapIcon 2 Blue Circle
 	Continue
 
 Show
@@ -251,6 +309,8 @@ Show
 	SetBackgroundColor 155 138 138 255
 	Continue
 
+{beginner_highlights}	
+			
 Show
 	SocketGroup "W"
 	SetBackgroundColor 255 255 255 255
@@ -284,6 +344,8 @@ Show	# Talismans
 	SetBackgroundColor 255 0 0 255 # Red BG
 	MinimapIcon 0 Red Circle
 	Continue
+	
+{quest}
 """ 
 
 custom1 = """
@@ -679,19 +741,9 @@ Show
 	PlayAlertSound 1 300
 	PlayEffect Red
 	MinimapIcon 0 Red Diamond
-
-Show
-	Rarity Rare
-	Class == "Wands"
-	ItemLevel > 75
-	SetFontSize 30
-
-Show
-	Rarity Normal Magic Rare
-	BaseType == "Prophecy Wand" "Omen Wand" "Accumulator Wand"
-	ItemLevel > 64
-	SetFontSize 35
-
+	
+{stuff_i_look_for_init}
+		
 Show
 	LinkedSockets >= 6
 	# Rarity Normal Magic Rare
@@ -767,7 +819,7 @@ Show
 
 Show
 	Rarity Rare
-	Class == "Amulets" "Rings"
+	Class == "Amulets" "Rings" "Belts"
 	SetFontSize 45
 	SetBorderColor 245 190 0 255
 	# SetBackgroundColor 20 20 0 255
@@ -1326,7 +1378,7 @@ hide_armour = f"""
 # "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield"
 # "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
 
-Hide
+{show_hide}
 	Rarity Rare
 	AreaLevel >= 68
 	AnyEnchantment False
@@ -1341,7 +1393,7 @@ Hide
 	SetFontSize 30
 	DisableDropSound True
 
-Hide
+{show_hide}
 	Rarity Rare
 	AreaLevel >= 68
 	Corrupted True
@@ -1354,7 +1406,7 @@ Hide
 	BaseType =={most_armours + hide_gloves}
 	ItemLevel < 70
 
- Hide
+{show_hide}
 	Rarity Magic
 	AreaLevel >= 68
 	AnyEnchantment False
@@ -1367,7 +1419,7 @@ Hide
 	SetFontSize 30
 	DisableDropSound True
 
-Hide
+{show_hide}
 	Rarity Magic
 	AreaLevel >= 68
 	AnyEnchantment False
@@ -1378,7 +1430,7 @@ Hide
 	SetFontSize 30
 	DisableDropSound True
 
-Hide
+{show_hide}
 	Rarity Normal
 	AreaLevel >= 45
 	BaseType =={most_armours + hide_gloves}
@@ -1435,97 +1487,65 @@ most_weapons = hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmace
 
 hide_weapons = f"""
 # ------ Bows ------  Class == "Bows"
-
-# ALL
 # "Crude Bow" "Short Bow" "Long Bow" "Composite Bow" "Recurve Bow" "Bone Bow" "Royal Bow" "Death Bow" "Grove Bow" "Reflex Bow" "Decurve Bow" "Compound Bow" "Sniper Bow" "Ivory Bow" "Foundry Bow" "Highborn Bow" "Decimation Bow" "Thicket Bow" "Steelwood Bow" "Citadel Bow" "Ranger Bow" "Assassin Bow" "Spine Bow" "Imperial Bow" "Harbinger Bow" "Solarine Bow" "Maraketh Bow"
 
 # ------ Claws ------  Class == "Claws"
-
-# ALL
 # "Nailed Fist" "Sharktooth Claw" "Awl" "Cat's Paw" "Blinder" "Timeworn Claw" "Sparkling Claw" "Fright Claw" "Double Claw" "Thresher Claw" "Gouger" "Tiger's Paw" "Gut Ripper" "Prehistoric Claw" "Malign Fangs" "Noble Claw" "Eagle Claw" "Twin Claw" "Great White Claw" "Throat Stabber" "Hellion's Paw" "Eye Gouger" "Vaal Claw" "Imperial Claw" "Terror Claw" "Void Fangs" "Gemini Claw"
 
 # ------ Daggers ------  Class == "Daggers"
-
-# ALL
 # "Glass Shank" "Skinning Knife" "Stiletto" "Flaying Knife" "Prong Dagger" "Poignard" "Pressurised Dagger" "Trisula" "Gutting Knife" "Ambusher" "Pneumatic Dagger" "Sai"
 
 # ------ One Hand Axes ------  Class == "One Hand Axes"
-
-# ALL
 # "Rusted Hatchet" "Jade Hatchet" "Boarding Axe" "Cleaver" "Broad Axe" "Arming Axe" "Decorative Axe" "Spectral Axe" "Etched Hatchet" "Jasper Axe" "Tomahawk" "Wrist Chopper" "War Axe" "Chest Splitter" "Disapprobation Axe" "Ceremonial Axe" "Wraith Axe" "Engraved Hatchet" "Karui Axe" "Siege Axe" "Reaver Axe" "Butcher Axe" "Vaal Hatchet" "Royal Axe" "Infernal Axe" "Psychotic Axe" "Runic Hatchet"
 # "Jade Hatchet" "Boarding Axe" "Cleaver" "Broad Axe" "Arming Axe" "Decorative Axe" "Spectral Axe" "Etched Hatchet" "Jasper Axe" "Tomahawk" "Wrist Chopper" "War Axe" "Chest Splitter" "Disapprobation Axe" "Ceremonial Axe" "Engraved Hatchet" "Karui Axe" "Royal Axe" "Infernal Axe" "Psychotic Axe" "Runic Hatchet"
 
 # ------ One Hand Maces ------  Class == "One Hand Maces"
-
-# ALL
 # "Driftwood Club" "Tribal Club" "Spiked Club" "Stone Hammer" "War Hammer" "Bladed Mace" "Ceremonial Mace" "Dream Mace" "Wyrm Mace" "Petrified Club" "Barbed Club" "Rock Breaker" "Battle Hammer" "Flanged Mace" "Crack Mace" "Ornate Mace" "Phantom Mace" "Dragon Mace" "Ancestral Club" "Tenderizer" "Gavel" "Legion Hammer" "Pernach" "Auric Mace" "Nightmare Mace" "Behemoth Mace" "Boom Mace"
 #  "Spiked Club" "Stone Hammer" "War Hammer" "Bladed Mace" "Ceremonial Mace" "Dream Mace" "Wyrm Mace" "Petrified Club" "Barbed Club" "Rock Breaker" "Battle Hammer" "Flanged Mace" "Crack Mace" "Ornate Mace" "Dragon Mace" "Ancestral Club" "Tenderizer" "Gavel" "Legion Hammer"  "Auric Mace" "Nightmare Mace" "Behemoth Mace" "Boom Mace"
 
 # ------ One Hand Swords ------  Class == "One Hand Swords"
-
-# ALL
 # "Rusted Sword" "Charan's Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Capricious Spiritblade" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Corsair Sword" "Anarchic Spiritblade" "Gemstone Sword" "Grappler" "Eternal Sword" "Tiger Hook" "Gladius" "Vaal Blade" "Midnight Blade" "Legion Sword"
 # "Charan's Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Capricious Spiritblade" "Battle Sword" "Twilight Blade"  "Anarchic Spiritblade" "Grappler" "Vaal Blade" "Midnight Blade" "Legion Sword"
 
 # ------ Quivers ------  Class == "Quivers"
-
-# ALL
 # "Serrated Arrow Quiver" "Fire Arrow Quiver" "Sharktooth Arrow Quiver" "Feathered Arrow Quiver" "Penetrating Arrow Quiver" "Blunt Arrow Quiver" "Two-Point Arrow Quiver" "Spike-Point Arrow Quiver" "Blazing Arrow Quiver" "Ornate Quiver" "Broadhead Arrow Quiver" "Vile Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Artillery Quiver"
 
 # ------ Rune Daggers ------  Class == "Rune Daggers"
-
-# ALL
 #  "Carving Knife" "Boot Knife" "Copper Kris" "Skean" "Imp Dagger" "Butcher Knife" "Boot Blade" "Golden Kris" "Flashfire Blade" "Royal Skean" "Fiend Dagger" "Slaughter Knife" "Ezomyte Dagger" "Platinum Kris" "Imperial Skean" "Demon Dagger" "Infernal Blade"
 #  "Boot Knife" "Copper Kris" "Imp Dagger" "Butcher Knife" "Boot Blade" "Golden Kris" "Flashfire Blade" "Royal Skean" "Fiend Dagger"  "Platinum Kris" "Imperial Skean" "Demon Dagger" "Infernal Blade"
 
 # ------ Sceptres ------  Class == "Sceptres"
-
-# ALL
 # "Driftwood Sceptre" "Darkwood Sceptre" "Bronze Sceptre" "Quartz Sceptre" "Iron Sceptre" "Ochre Sceptre" "Ritual Sceptre" "Oscillating Sceptre" "Shadow Sceptre" "Grinning Fetish" "Horned Sceptre" "Sekhem" "Crystal Sceptre" "Lead Sceptre" "Blood Sceptre" "Royal Sceptre" "Stabilising Sceptre" "Abyssal Sceptre" "Stag Sceptre" "Karui Sceptre" "Tyrant's Sekhem" "Opal Sceptre" "Platinum Sceptre" "Vaal Sceptre" "Carnal Sceptre" "Void Sceptre" "Alternating Sceptre" "Sambar Sceptre"
 # "Darkwood Sceptre" "Bronze Sceptre" "Quartz Sceptre" "Iron Sceptre" "Ochre Sceptre" "Ritual Sceptre" "Oscillating Sceptre" "Shadow Sceptre" "Grinning Fetish" "Horned Sceptre" "Sekhem" "Crystal Sceptre" "Lead Sceptre" "Blood Sceptre" "Stabilising Sceptre" "Abyssal Sceptre" "Stag Sceptre"  "Tyrant's Sekhem" "Platinum Sceptre" "Vaal Sceptre" "Carnal Sceptre" "Void Sceptre" "Alternating Sceptre" "Sambar Sceptre"
 
 # ------ Staves ------  Class == "Staves"
-
-# ALL
 # "Gnarled Branch" "Primitive Staff" "Long Staff" "Royal Staff" "Crescent Staff" "Woodful Staff" "Quarterstaff" "Reciprocation Staff" "Highborn Staff" "Moon Staff" "Primordial Staff" "Lathi" "Imperial Staff" "Battery Staff" "Eclipse Staff"
-#	"Reciprocation Staff" "Battery Staff" "Eclipse Staff" "Imperial Staff"
+# "Reciprocation Staff" "Battery Staff" "Eclipse Staff" "Imperial Staff"
 
 # ------ Thrusting One Hand Swords ------  Class == "Thrusting One Hand Swords"
-
-# ALL
 # "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Pecoraro" "Spiraled Foil" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword"
 # "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc"  "Primeval Rapier" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Pecoraro" "Spiraled Foil" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword"
 
 # ------ Two Hand Axes ------  Class == "Two Hand Axes"
-
-# ALL
 # "Stone Axe" "Jade Chopper" "Woodsplitter" "Poleaxe" "Double Axe" "Gilded Axe" "Shadow Axe" "Dagger Axe" "Jasper Chopper" "Timber Axe" "Headsman Axe" "Labrys" "Honed Cleaver" "Noble Axe" "Abyssal Axe" "Karui Chopper" "Talon Axe" "Sundering Axe" "Ezomyte Axe" "Vaal Axe" "Despot Axe" "Void Axe" "Apex Cleaver" "Fleshripper"
 # "Jade Chopper" "Woodsplitter" "Poleaxe" "Double Axe" "Gilded Axe" "Shadow Axe" "Dagger Axe" "Jasper Chopper" "Timber Axe" "Headsman Axe" "Honed Cleaver" "Noble Axe" "Abyssal Axe"  "Talon Axe" "Sundering Axe" "Ezomyte Axe" "Void Axe" "Apex Cleaver" "Fleshripper"
 
 # ------ Two Hand Maces ------  Class == "Two Hand Maces"
-
-# ALL
 # "Driftwood Maul" "Tribal Maul" "Mallet" "Sledgehammer" "Jagged Maul" "Brass Maul" "Fright Maul" "Morning Star" "Totemic Maul" "Great Mallet" "Steelhead" "Spiny Maul" "Crushing Force Magnifier" "Plated Maul" "Dread Maul" "Solar Maul" "Karui Maul" "Colossus Mallet" "Piledriver" "Meatgrinder" "Imperial Maul" "Terror Maul" "Coronal Maul" "Impact Force Propagator"
 # "Tribal Maul" "Mallet" "Sledgehammer" "Jagged Maul" "Brass Maul" "Fright Maul" "Morning Star" "Totemic Maul" "Great Mallet"  "Crushing Force Magnifier" "Plated Maul"  "Solar Maul" "Karui Maul" "Imperial Maul" "Terror Maul" "Coronal Maul" "Impact Force Propagator"
 
 # ------ Two Hand Swords ------  Class == "Two Hand Swords"
-
-# ALL
 # "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Blasting Blade" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Banishing Blade" "Exquisite Blade"
 # "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Blasting Blade" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade" "Infernal Sword" "Banishing Blade" "Exquisite Blade"
 
 # ------ Wands ------  Class == "Wands"
-
-# ALL
 # "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Calling Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Coiled Wand" "Congregator Wand" "Convening Wand" "Omen Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand" "Prophecy Wand" "Accumulator Wand" "Profane Wand" "Convoking Wand"
 
 # ------ Warstaves ------  Class == "Warstaves"
-
-# ALL
 # "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Potentiality Rod" "Foul Staff" "Ezomyte Staff" "Maelström Staff" "Judgement Staff" "Eventuality Rod"
-#  "Potentiality Rod" "Maelström Staff" "Judgement Staff" "Eventuality Rod"
+# "Potentiality Rod" "Maelström Staff" "Judgement Staff" "Eventuality Rod"
 
-Hide
+{show_hide}
 	Rarity Rare
 	AreaLevel >= 68
 	AnyEnchantment False
@@ -1540,7 +1560,7 @@ Hide
 	SetFontSize 30
 	DisableDropSound True
 	
-Hide
+{show_hide}
 	Rarity Rare
 	AreaLevel >= 68
 	Corrupted True
@@ -1553,7 +1573,7 @@ Hide
 	BaseType =={most_weapons + hide_wands}
 	ItemLevel < 70
 
-Hide
+{show_hide}
 	Rarity Magic
 	AreaLevel >= 68
 	AnyEnchantment False
@@ -1564,7 +1584,7 @@ Hide
 	SetFontSize 30
 	DisableDropSound True
 
-Hide
+{show_hide}
 	Rarity Magic
 	AreaLevel >= 68
 	AnyEnchantment False
@@ -1576,7 +1596,7 @@ Hide
 	SetFontSize 30
 	DisableDropSound True
 
-Hide
+{show_hide}
 	Rarity Normal
 	AreaLevel >= 45
 	BaseType =={most_weapons + hide_quivers + hide_wands}
