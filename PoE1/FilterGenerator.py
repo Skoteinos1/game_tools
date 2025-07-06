@@ -1,5 +1,3 @@
-# s = f'hanning{num}.pdf'
-
 
 show_rgb_tf = True
 # show_rgb_tf = False
@@ -8,13 +6,13 @@ show_rgb = ""
 if show_rgb_tf:
     show_rgb = """Show
 	SocketGroup "RGB"
-        Width 1
+	Width 1
 	SetFontSize 40
 
 Show
 	SocketGroup "RGB"
-        Height = 2
-        Width 2
+	Height = 2
+	Width 2
 	SetFontSize 40"""
 
 header = """# https://www.pathofexile.com/item-filter/about
@@ -131,43 +129,43 @@ color_text = """
 
 # -------------- Text Color ----------------------------
 Show
-        Rarity Normal
-        SetTextColor 200 200 200 255
-        MinimapIcon 2 Grey Circle
-        Continue
+	Rarity Normal
+	SetTextColor 200 200 200 255
+	MinimapIcon 2 Grey Circle
+	Continue
 
 Show
-        Rarity Magic
-        SetTextColor 131 131 247 255
-        MinimapIcon 2 Blue Circle
-        Continue
+	Rarity Magic
+	SetTextColor 131 131 247 255
+	MinimapIcon 2 Blue Circle
+	Continue
 
 Show
-        Rarity Rare
-        ItemLevel > 90
-        SetTextColor 255 127 0 255
-        MinimapIcon 2 Orange Circle
-        Continue
+	Rarity Rare
+	ItemLevel > 90
+	SetTextColor 255 127 0 255
+	MinimapIcon 2 Orange Circle
+	Continue
 
 Show
-        Rarity Rare
-        ItemLevel > 83
-        ItemLevel <= 89
-        SetTextColor 245 190 0 255
-        MinimapIcon 2 Yellow Circle
-        Continue
+	Rarity Rare
+	ItemLevel > 83
+	ItemLevel <= 89
+	SetTextColor 245 190 0 255
+	MinimapIcon 2 Yellow Circle
+	Continue
 
 Show
-        Rarity Rare
-        ItemLevel <= 83
-        SetTextColor 254 254 118 255
-        MinimapIcon 2 Yellow Circle
-        Continue
+	Rarity Rare
+	ItemLevel <= 83
+	SetTextColor 254 254 118 255
+	MinimapIcon 2 Yellow Circle
+	Continue
 
 Show
 	Rarity Unique
 	SetFontSize 45
-        SetTextColor 175 95 28 255
+	SetTextColor 175 95 28 255
 	SetBorderColor 175 95 28 255
 	PlayAlertSound 3 300
 	PlayEffect Brown
@@ -176,7 +174,7 @@ Show
 Show
 	Class == "Skill Gems" "Support Gems"
 	SetTextColor 30 190 190 255
-        Continue
+	Continue
 """
 
 color_border = """
@@ -185,30 +183,30 @@ Show
 	Mirrored True
 	Class == "Amulets" "Belts" "Body Armour" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wand" "Wands" "Warstaves"
 	SetBorderColor 180 0 0 255
-        Continue
+	Continue
 
 Show
 	Corrupted True
-        Class == "Amulets" "Belts" "Body Armour" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wand" "Wands" "Warstaves"
+	Class == "Amulets" "Belts" "Body Armour" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wand" "Wands" "Warstaves"
 	SetBorderColor 180 0 0 255
-        Continue
+	Continue
 
 Show
-        FracturedItem True
+	FracturedItem True
 	Class == "Amulets" "Belts" "Body Armour" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wand" "Wands" "Warstaves"
 	SetBorderColor 0 0 255 255
-        Continue
+	Continue
 
 Show
-        SynthesisedItem True
+	SynthesisedItem True
 	Class == "Amulets" "Belts" "Body Armour" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wand" "Wands" "Warstaves"
 	SetBorderColor 175 67 219 255
-        Continue
+	Continue
 
 Show
-        HasExplicitMod >=1 "Catarina's Veiled" "Elreon's Veiled" "Gravicius' Veiled" "Guff's Veiled" "It That Fled's Veiled" "Korell's Veiled" "Leo's Veiled" "Rin's Veiled" "Tora's Veiled" "Vagan's Veiled" "Veil" "Veiled" "Vorici's Veiled" "of Aisling's Veil" "of Cameria's Veil" "of Hillock's Veil" "of Janus' Veil" "of Jorgin's Veil" "of the Veil"
+	HasExplicitMod >=1 "Catarina's Veiled" "Elreon's Veiled" "Gravicius' Veiled" "Guff's Veiled" "It That Fled's Veiled" "Korell's Veiled" "Leo's Veiled" "Rin's Veiled" "Tora's Veiled" "Vagan's Veiled" "Veil" "Veiled" "Vorici's Veiled" "of Aisling's Veil" "of Cameria's Veil" "of Hillock's Veil" "of Janus' Veil" "of Jorgin's Veil" "of the Veil"
 	SetBorderColor 20 190 20 255
-        Continue
+	Continue
 
 """
 
@@ -217,81 +215,80 @@ color_background = """
 Show
 	Class == "Flask" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Tinctures" "Utility Flasks"
 	SetBackgroundColor 20 90 0 180
-        Continue
+	Continue
 
 Show
-        Class == "Wand" "Wands"
-        SetBackgroundColor 86 88 29 255
-        MinimapIcon 2 Blue Circle
-        Continue
+	Class == "Wand" "Wands"
+	SetBackgroundColor 86 88 29 255
+	MinimapIcon 2 Blue Circle
+	Continue
 
 Show
-        Class == "Abyss Jewels" "Jewels"
-        SetBackgroundColor 138 50 50 255
-        MinimapIcon 2 Red Hexagon
-        Continue
+	Class == "Abyss Jewels" "Jewels"
+	SetBackgroundColor 138 50 50 255
+	MinimapIcon 2 Red Hexagon
+	Continue
 
 Show
 	SocketGroup "RGB"
 	SetBackgroundColor 130 110 110 255
-        Continue
+	Continue
 
 Show
 	Sockets >= 6
 	SetBackgroundColor 155 138 138 255
-        Continue
+	Continue
 
 Show
 	SocketGroup "W"
 	SetBackgroundColor 255 255 255 255
-        Continue
+	Continue
 
 Show
 	SocketGroup "A"
 	SetBackgroundColor 0 180 0 255
-        Continue
+	Continue
 
 Show
 	SocketGroup "D"
 	SetBackgroundColor 0 180 0 255
-        Continue
+	Continue
 
 Show
-        # Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
-        BaseType == "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots" "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts" "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Divine Crown" "Torturer's Mask" "Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield" "Lacquered Buckler" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Cardinal Round Shield" "Elegant Round Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield"
-        BaseDefencePercentile >= 90
-        SetBackgroundColor 0 92 0 255 # Dark Green BG
-        MinimapIcon 2 Green Circle
-        Continue
+	# Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
+	BaseType == "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots" "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts" "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Divine Crown" "Torturer's Mask" "Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield" "Lacquered Buckler" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Cardinal Round Shield" "Elegant Round Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield"
+	BaseDefencePercentile >= 90
+	SetBackgroundColor 0 92 0 255 # Dark Green BG
+	MinimapIcon 2 Green Circle
+	Continue
 
 Show    # Atlas base
-        BaseType == "Apothecary's Gloves" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"  "Two-Toned Boots"  "Two-Toned Boots" "Convoking Wand" "Bone Helmet" "Artillery Quiver" "Marble Amulet" "Seaglass Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Cerulean Ring" "Iolite Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
-        # BaseType == "Atlas"
-        SetBackgroundColor 0 188 155 255
-        Continue
+	BaseType == "Apothecary's Gloves" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"  "Two-Toned Boots"  "Two-Toned Boots" "Convoking Wand" "Bone Helmet" "Artillery Quiver" "Marble Amulet" "Seaglass Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Cerulean Ring" "Iolite Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	SetBackgroundColor 0 188 155 255
+	Continue
 
 Show    # Talismans
-        AnyEnchantment True
-        SetBackgroundColor 255 0 0 255 # Red BG
-        MinimapIcon 0 Red Circle
-        Continue
+	AnyEnchantment True
+	SetBackgroundColor 255 0 0 255 # Red BG
+	MinimapIcon 0 Red Circle
+	Continue
 """ 
 
 custom1 = """
 Show
-        EnchantmentPassiveNum <= 1
-        SetFontSize 45
-        SetTextColor 61 217 15 255
+	EnchantmentPassiveNum <= 1
+	SetFontSize 45
+	SetTextColor 61 217 15 255
 	SetBorderColor 61 217 15 255
-        SetBackgroundColor 133 20 46 255 # Wine Red BG        133 20 46
+	SetBackgroundColor 133 20 46 255 # Wine Red BG	133 20 46
 	MinimapIcon 0 Red Circle
 
 Show
-        EnchantmentPassiveNum >= 1
-        SetFontSize 45
-        SetTextColor 61 217 15 255
+	EnchantmentPassiveNum >= 1
+	SetFontSize 45
+	SetTextColor 61 217 15 255
 	SetBorderColor 61 217 15 255
-        SetBackgroundColor 133 20 46 255 # Wine Red BG        133 20 46
+	SetBackgroundColor 133 20 46 255 # Wine Red BG	133 20 46
 	MinimapIcon 0 Red Circle
 
 
@@ -327,17 +324,17 @@ Show
 	SetTextColor 175 67 219 255
 	SetBorderColor 175 67 219 255
 	SetBackgroundColor 20 20 0 255
-        MinimapIcon 1 Yellow Cross
+	MinimapIcon 1 Yellow Cross
 
 Show
 	Class "Stackable Currency"
-        BaseType == "Ancient Orb" "Ancient Shard" "Blessed Orb" "Divine Orb" "Engineer's Orb" "Engineer's Shard" "Enkindling Orb" "Exalted Orb" "Exalted Shard" "Fracturing Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Orb" "Harbinger's Shard" "Orb of Horizons" "Horizon Shard" "Chaos Orb" "Chaos Shard" "Instilling Orb" "Mirror of Kalandra" "Mirror Shard" "Orb of Annulment" "Annulment Shard" "Regal Orb" "Regal Shard" "Sacred Orb" "Hinekora's Lock" "Blighted Scouting Report" "Comprehensive Scouting Report" "Delirious Scouting Report" "Operative's Scouting Report" "Singular Scouting Report" "Vaal Scouting Report" "Influenced Scouting Report" "Otherworldly Scouting Report" "Awakener's Orb" "Crescent Splinter" "Crusader's Exalted Orb" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Grand Eldritch Ember" "Grand Eldritch Ichor" "Greater Eldritch Ember" "Greater Eldritch Ichor" "Hunter's Exalted Orb" "Maven's Chisel of Avarice" "Maven's Chisel of Divination" "Maven's Chisel of Procurement" "Maven's Chisel of Scarabs" "Orb of Conflict" "Orb of Dominance" "Redeemer's Exalted Orb" "Warlord's Exalted Orb" "Crimson Oil" "Black Oil" "Opalescent Oil" "Silver Oil" "Golden Oil" "Reflective Oil" "Tainted Oil" "Prismatic Oil"
+	BaseType == "Ancient Orb" "Ancient Shard" "Blessed Orb" "Divine Orb" "Engineer's Orb" "Engineer's Shard" "Enkindling Orb" "Exalted Orb" "Exalted Shard" "Fracturing Shard" "Gemcutter's Prism" "Glassblower's Bauble" "Harbinger's Orb" "Harbinger's Shard" "Orb of Horizons" "Horizon Shard" "Chaos Orb" "Chaos Shard" "Instilling Orb" "Mirror of Kalandra" "Mirror Shard" "Orb of Annulment" "Annulment Shard" "Regal Orb" "Regal Shard" "Sacred Orb" "Hinekora's Lock" "Blighted Scouting Report" "Comprehensive Scouting Report" "Delirious Scouting Report" "Operative's Scouting Report" "Singular Scouting Report" "Vaal Scouting Report" "Influenced Scouting Report" "Otherworldly Scouting Report" "Awakener's Orb" "Crescent Splinter" "Crusader's Exalted Orb" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Grand Eldritch Ember" "Grand Eldritch Ichor" "Greater Eldritch Ember" "Greater Eldritch Ichor" "Hunter's Exalted Orb" "Maven's Chisel of Avarice" "Maven's Chisel of Divination" "Maven's Chisel of Procurement" "Maven's Chisel of Scarabs" "Orb of Conflict" "Orb of Dominance" "Redeemer's Exalted Orb" "Warlord's Exalted Orb" "Crimson Oil" "Black Oil" "Opalescent Oil" "Silver Oil" "Golden Oil" "Reflective Oil" "Tainted Oil" "Prismatic Oil"
 	SetFontSize 40
 	SetTextColor 175 67 219 255
 	SetBorderColor 175 67 219 255  # 134 33 176
 	SetBackgroundColor 20 20 0 255
-        PlayEffect Purple
-        MinimapIcon 0 Orange Cross
+	PlayEffect Purple
+	MinimapIcon 0 Orange Cross
 
 Show
 	Class "Stackable Currency"
@@ -345,14 +342,14 @@ Show
 	SetTextColor 175 67 219 255
 	SetBorderColor 175 67 219 255  # 134 33 176
 	SetBackgroundColor 20 20 0 255
-        MinimapIcon 1 Yellow Cross
+	MinimapIcon 1 Yellow Cross
 
 Show
 	Class == "Divination Cards"
 	SetFontSize 45
 	SetTextColor 39 141 192 255
 	SetBorderColor 39 141 192 255
-        SetBackgroundColor 20 20 0 255
+	SetBackgroundColor 20 20 0 255
 	MinimapIcon 2 Grey Triangle
 
 Show
@@ -395,12 +392,12 @@ gems_jewels = """
 Show
 	Rarity Rare
     	Class == "Abyss Jewels" "Jewel" "Jewels"
-        SetFontSize 40
+	SetFontSize 40
 
 Show
 	Rarity Magic
     	Class == "Abyss Jewels"
-        SetFontSize 40
+	SetFontSize 40
 
 Show
 	Class == "Skill Gems" "Support Gems"
@@ -470,7 +467,7 @@ Show
 
 Show
 	Class == "Skill Gems" "Support Gems"
-        GemLevel >= 15
+	GemLevel >= 15
 	SetFontSize 45
 	SetBorderColor 40 130 130 255
 	PlayEffect Grey Temp
@@ -620,10 +617,10 @@ Show
 # ----------------------------------------------------
 
 Show    # Atlas base
-        BaseType == "Apothecary's Gloves" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"  "Two-Toned Boots"  "Two-Toned Boots" "Convoking Wand" "Bone Helmet" "Artillery Quiver" "Marble Amulet" "Seaglass Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Cerulean Ring" "Iolite Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
-        # BaseType == "Atlas"
-        # Rarity Normal Magic Rare
-        SetFontSize 40
+	BaseType == "Apothecary's Gloves" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"  "Two-Toned Boots"  "Two-Toned Boots" "Convoking Wand" "Bone Helmet" "Artillery Quiver" "Marble Amulet" "Seaglass Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Cerulean Ring" "Iolite Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	# BaseType == "Atlas"
+	# Rarity Normal Magic Rare
+	SetFontSize 40
 	# SetTextColor 0 240 190 255
 	# SetBorderColor 0 240 190 255
 	# SetBackgroundColor 20 20 0 255
@@ -632,8 +629,8 @@ Show    # Atlas base
 	MinimapIcon 1 Cyan Diamond
 
 Show
-        HasExplicitMod >=1 "Catarina's Veiled" "Elreon's Veiled" "Gravicius' Veiled" "Guff's Veiled" "It That Fled's Veiled" "Korell's Veiled" "Leo's Veiled" "Rin's Veiled" "Tora's Veiled" "Vagan's Veiled" "Veil" "Veiled" "Vorici's Veiled" "of Aisling's Veil" "of Cameria's Veil" "of Hillock's Veil" "of Janus' Veil" "of Jorgin's Veil" "of the Veil"
-        SetFontSize 45
+	HasExplicitMod >=1 "Catarina's Veiled" "Elreon's Veiled" "Gravicius' Veiled" "Guff's Veiled" "It That Fled's Veiled" "Korell's Veiled" "Leo's Veiled" "Rin's Veiled" "Tora's Veiled" "Vagan's Veiled" "Veil" "Veiled" "Vorici's Veiled" "of Aisling's Veil" "of Cameria's Veil" "of Hillock's Veil" "of Janus' Veil" "of Jorgin's Veil" "of the Veil"
+	SetFontSize 45
 
 Show # $type->influenced->common $tier->t1_exo
 	# HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
@@ -660,13 +657,13 @@ Show
 Show
 	Rarity Rare
 	Class == "Wands"
-        ItemLevel > 75
-        SetFontSize 30
+	ItemLevel > 75
+	SetFontSize 30
 
 Show
-        Rarity Normal Magic Rare
+	Rarity Normal Magic Rare
 	BaseType == "Prophecy Wand" "Omen Wand" "Accumulator Wand"
-        ItemLevel > 64
+	ItemLevel > 64
 	SetFontSize 35
 
 Show
@@ -697,7 +694,7 @@ Show
 	MinimapIcon 2 Grey Hexagon
 
 Show
-        # Sockets >= A
+	# Sockets >= A
 	SocketGroup "A"
 	SetFontSize 45
 	PlayAlertSound 6 300
@@ -705,9 +702,9 @@ Show
 	MinimapIcon 0 Red Star
 
 Show
-        Rarity Rare
+	Rarity Rare
 	SocketGroup "W"
-        LinkedSockets >= 3
+	LinkedSockets >= 3
 	SetFontSize 45
 	PlayAlertSound 6 300
 	PlayEffect Red
@@ -743,7 +740,7 @@ Show
 	MinimapIcon 2 Blue Diamond
 
 Show
-        Rarity Rare
+	Rarity Rare
 	Class == "Amulets" "Rings"
 	SetFontSize 45
 	SetBorderColor 245 190 0 255
@@ -754,44 +751,44 @@ Show
 	# Rarity Normal Magic Rare
 	SetFontSize 45
 	SetBorderColor 0 240 190 255
-        SetBackgroundColor 210 0 0 255
+	SetBackgroundColor 210 0 0 255
 	PlayAlertSound 3 300
 	PlayEffect Blue
 	MinimapIcon 2 Blue Diamond
 
 Show
 	Rarity Rare
-        Corrupted True
+	Corrupted True
 	ItemLevel >= 70
 
 Show
 	Rarity Rare
-        Mirrored True
+	Mirrored True
 	ItemLevel >= 70
 
 Show
 	# Rarity Magic Rare
-        FracturedItem True
-        # ItemLevel >= 70
+	FracturedItem True
+	# ItemLevel >= 70
 	SetFontSize 45
 
 Show
 	# Rarity Magic Rare
-        SynthesisedItem True
-        # ItemLevel >= 70
+	SynthesisedItem True
+	# ItemLevel >= 70
 	SetFontSize 45
 
 Show
 	# Rarity Magic Rare
-        Identified True
+	Identified True
 	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
 	SetFontSize 30
 
 Show
 	Rarity Rare
 	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
-        ItemLevel >= 86
-        SetFontSize 30
+	ItemLevel >= 86
+	SetFontSize 30
 
 
 
@@ -812,49 +809,49 @@ Show
 Show
 	Mirrored False
 	Corrupted False
-        BaseDefencePercentile >= 66
-        Rarity Rare Magic
+	BaseDefencePercentile >= 66
+	Rarity Rare Magic
 	BaseType == "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots" "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts" "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Divine Crown" "Torturer's Mask" "Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield" "Lacquered Buckler" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Cardinal Round Shield" "Elegant Round Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield"
 
 Hide
-        Rarity Rare Magic Normal
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        SynthesisedItem False
+	Rarity Rare Magic Normal
+	AnyEnchantment False
+	FracturedItem False
+	HasCruciblePassiveTree False
+	SynthesisedItem False
 	BaseType == "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots" "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts" "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Divine Crown" "Torturer's Mask" "Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield" "Lacquered Buckler" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Cardinal Round Shield" "Elegant Round Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield"
 
 
 # ------- High tier wepons ------------
 
 Show
-        Rarity Rare
-        BaseType == "Maraketh Bow" "Imperial Bow" "Harbinger Bow" "Ranger Bow" "Assassin Bow" "Steelwood Bow" "Vaal Claw" "Eye Gouger" "Imperial Claw" "Gemini Claw" "Ambusher" "Sai" "Royal Axe" "Runic Hatchet" "Gavel" "Behemoth Mace" "Vaal Blade" "Midnight Blade" "Tiger Hook" "Legion Sword" "Primal Arrow Quiver" "Demon Dagger" "Platinum Kris" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" "Imperial Staff" "Eclipse Staff" "Harpy Rapier" "Dragoon Sword" "Void Axe" "Fleshripper" "Karui Chopper" "Vaal Axe" "Sundering Axe" "Imperial Maul" "Terror Maul" "Coronal Maul" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Reaver Sword" "Ezomyte Blade" "Exquisite Blade" "Prophecy Wand" "Profane Wand" "Omen Wand" "Maelström Staff" "Judgement Staff"
-        # ItemLevel >= 86
-        SetFontSize 40
+	Rarity Rare
+	BaseType == "Maraketh Bow" "Imperial Bow" "Harbinger Bow" "Ranger Bow" "Assassin Bow" "Steelwood Bow" "Vaal Claw" "Eye Gouger" "Imperial Claw" "Gemini Claw" "Ambusher" "Sai" "Royal Axe" "Runic Hatchet" "Gavel" "Behemoth Mace" "Vaal Blade" "Midnight Blade" "Tiger Hook" "Legion Sword" "Primal Arrow Quiver" "Demon Dagger" "Platinum Kris" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" "Imperial Staff" "Eclipse Staff" "Harpy Rapier" "Dragoon Sword" "Void Axe" "Fleshripper" "Karui Chopper" "Vaal Axe" "Sundering Axe" "Imperial Maul" "Terror Maul" "Coronal Maul" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Reaver Sword" "Ezomyte Blade" "Exquisite Blade" "Prophecy Wand" "Profane Wand" "Omen Wand" "Maelström Staff" "Judgement Staff"
+	# ItemLevel >= 86
+	SetFontSize 40
 
 # Show
-#         Rarity Rare
-#         BaseType == "Maraketh Bow" "Imperial Bow" "Harbinger Bow" "Ranger Bow" "Assassin Bow" "Steelwood Bow" "Vaal Claw" "Eye Gouger" "Imperial Claw" "Gemini Claw" "Ambusher" "Sai" "Royal Axe" "Runic Hatchet" "Gavel" "Behemoth Mace" "Vaal Blade" "Midnight Blade" "Tiger Hook" "Legion Sword" "Primal Arrow Quiver" "Demon Dagger" "Platinum Kris" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" "Imperial Staff" "Eclipse Staff" "Harpy Rapier" "Dragoon Sword" "Void Axe" "Fleshripper" "Karui Chopper" "Vaal Axe" "Sundering Axe" "Imperial Maul" "Terror Maul" "Coronal Maul" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Reaver Sword" "Ezomyte Blade" "Exquisite Blade" "Prophecy Wand" "Profane Wand" "Omen Wand" "Maelström Staff" "Judgement Staff"
-#         ItemLevel <= 85
-#         SetFontSize 30
+#	 Rarity Rare
+#	 BaseType == "Maraketh Bow" "Imperial Bow" "Harbinger Bow" "Ranger Bow" "Assassin Bow" "Steelwood Bow" "Vaal Claw" "Eye Gouger" "Imperial Claw" "Gemini Claw" "Ambusher" "Sai" "Royal Axe" "Runic Hatchet" "Gavel" "Behemoth Mace" "Vaal Blade" "Midnight Blade" "Tiger Hook" "Legion Sword" "Primal Arrow Quiver" "Demon Dagger" "Platinum Kris" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" "Imperial Staff" "Eclipse Staff" "Harpy Rapier" "Dragoon Sword" "Void Axe" "Fleshripper" "Karui Chopper" "Vaal Axe" "Sundering Axe" "Imperial Maul" "Terror Maul" "Coronal Maul" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Reaver Sword" "Ezomyte Blade" "Exquisite Blade" "Prophecy Wand" "Profane Wand" "Omen Wand" "Maelström Staff" "Judgement Staff"
+#	 ItemLevel <= 85
+#	 SetFontSize 30
 
 Hide
-        Rarity Magic
-        AnyEnchantment False
-        # Corrupted False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        # Mirrored False
-        SynthesisedItem False
-        Quality < 20
-        BaseType == "Maraketh Bow" "Imperial Bow" "Harbinger Bow" "Ranger Bow" "Assassin Bow" "Steelwood Bow" "Vaal Claw" "Eye Gouger" "Imperial Claw" "Gemini Claw" "Ambusher" "Sai" "Royal Axe" "Runic Hatchet" "Gavel" "Behemoth Mace" "Vaal Blade" "Midnight Blade" "Tiger Hook" "Legion Sword" "Primal Arrow Quiver" "Demon Dagger" "Platinum Kris" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" "Imperial Staff" "Eclipse Staff" "Harpy Rapier" "Dragoon Sword" "Void Axe" "Fleshripper" "Karui Chopper" "Vaal Axe" "Sundering Axe" "Imperial Maul" "Terror Maul" "Coronal Maul" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Reaver Sword" "Ezomyte Blade" "Exquisite Blade" "Prophecy Wand" "Profane Wand" "Omen Wand" "Maelström Staff" "Judgement Staff"
+	Rarity Magic
+	AnyEnchantment False
+	# Corrupted False
+	FracturedItem False
+	HasCruciblePassiveTree False
+	Identified False
+	# Mirrored False
+	SynthesisedItem False
+	Quality < 20
+	BaseType == "Maraketh Bow" "Imperial Bow" "Harbinger Bow" "Ranger Bow" "Assassin Bow" "Steelwood Bow" "Vaal Claw" "Eye Gouger" "Imperial Claw" "Gemini Claw" "Ambusher" "Sai" "Royal Axe" "Runic Hatchet" "Gavel" "Behemoth Mace" "Vaal Blade" "Midnight Blade" "Tiger Hook" "Legion Sword" "Primal Arrow Quiver" "Demon Dagger" "Platinum Kris" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" "Imperial Staff" "Eclipse Staff" "Harpy Rapier" "Dragoon Sword" "Void Axe" "Fleshripper" "Karui Chopper" "Vaal Axe" "Sundering Axe" "Imperial Maul" "Terror Maul" "Coronal Maul" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Reaver Sword" "Ezomyte Blade" "Exquisite Blade" "Prophecy Wand" "Profane Wand" "Omen Wand" "Maelström Staff" "Judgement Staff"
 
 Hide
-        Rarity Normal
-        Quality < 20
-        BaseType == "Maraketh Bow" "Imperial Bow" "Harbinger Bow" "Ranger Bow" "Assassin Bow" "Steelwood Bow" "Vaal Claw" "Eye Gouger" "Imperial Claw" "Gemini Claw" "Ambusher" "Sai" "Royal Axe" "Runic Hatchet" "Gavel" "Behemoth Mace" "Vaal Blade" "Midnight Blade" "Tiger Hook" "Legion Sword" "Primal Arrow Quiver" "Demon Dagger" "Platinum Kris" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" "Imperial Staff" "Eclipse Staff" "Harpy Rapier" "Dragoon Sword" "Void Axe" "Fleshripper" "Karui Chopper" "Vaal Axe" "Sundering Axe" "Imperial Maul" "Terror Maul" "Coronal Maul" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Reaver Sword" "Ezomyte Blade" "Exquisite Blade" "Prophecy Wand" "Profane Wand" "Omen Wand" "Maelström Staff" "Judgement Staff"
+	Rarity Normal
+	Quality < 20
+	BaseType == "Maraketh Bow" "Imperial Bow" "Harbinger Bow" "Ranger Bow" "Assassin Bow" "Steelwood Bow" "Vaal Claw" "Eye Gouger" "Imperial Claw" "Gemini Claw" "Ambusher" "Sai" "Royal Axe" "Runic Hatchet" "Gavel" "Behemoth Mace" "Vaal Blade" "Midnight Blade" "Tiger Hook" "Legion Sword" "Primal Arrow Quiver" "Demon Dagger" "Platinum Kris" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" "Imperial Staff" "Eclipse Staff" "Harpy Rapier" "Dragoon Sword" "Void Axe" "Fleshripper" "Karui Chopper" "Vaal Axe" "Sundering Axe" "Imperial Maul" "Terror Maul" "Coronal Maul" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Reaver Sword" "Ezomyte Blade" "Exquisite Blade" "Prophecy Wand" "Profane Wand" "Omen Wand" "Maelström Staff" "Judgement Staff"
 
 """
 
@@ -866,53 +863,53 @@ flasks = """
 Show
 	Rarity Normal Magic
 	Class == "Flask" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Tinctures" "Utility Flasks"
-        Quality >= 1
+	Quality >= 1
 	SetFontSize 40
 
 Show
 	Rarity Normal Magic
 	Class == "Utility Flasks"
-        ItemLevel >= 84
+	ItemLevel >= 84
 	SetFontSize 40
 
 Hide
 	Rarity Normal Magic
 	Class == "Tinctures"
-        BaseType == "Ironwood Tincture" "Prismatic Tincture" "Rosethorn Tincture" "Ashbark Tincture" "Borealwood Tincture" "Fulgurite Tincture" "Blood Sap Tincture" "Poisonberry Tincture" "Sporebloom Tincture" "Oakbranch Tincture"
-        Quality = 0
+	BaseType == "Ironwood Tincture" "Prismatic Tincture" "Rosethorn Tincture" "Ashbark Tincture" "Borealwood Tincture" "Fulgurite Tincture" "Blood Sap Tincture" "Poisonberry Tincture" "Sporebloom Tincture" "Oakbranch Tincture"
+	Quality = 0
 	SetFontSize 30
 	DisableDropSound True
 
 Hide
 	Rarity Normal Magic
 	Class == "Mana Flasks"
-        BaseType == "Small Mana Flask" "Medium Mana Flask" "Large Mana Flask" "Greater Mana Flask" "Grand Mana Flask" "Giant Mana Flask" "Colossal Mana Flask" "Sacred Mana Flask" "Hallowed Mana Flask" "Sanctified Mana Flask" "Divine Mana Flask" "Eternal Mana Flask"
-        Quality = 0
+	BaseType == "Small Mana Flask" "Medium Mana Flask" "Large Mana Flask" "Greater Mana Flask" "Grand Mana Flask" "Giant Mana Flask" "Colossal Mana Flask" "Sacred Mana Flask" "Hallowed Mana Flask" "Sanctified Mana Flask" "Divine Mana Flask" "Eternal Mana Flask"
+	Quality = 0
 	SetFontSize 30
-        DisableDropSound True
+	DisableDropSound True
 
 Hide
 	Rarity Normal Magic
 	Class == "Life Flasks"
-        BaseType == "Small Life Flask" "Medium Life Flask" "Large Life Flask" "Greater Life Flask" "Grand Life Flask" "Giant Life Flask" "Colossal Life Flask" "Sacred Life Flask" "Hallowed Life Flask" "Sanctified Life Flask" "Divine Life Flask" "Eternal Life Flask"
-        Quality = 0
+	BaseType == "Small Life Flask" "Medium Life Flask" "Large Life Flask" "Greater Life Flask" "Grand Life Flask" "Giant Life Flask" "Colossal Life Flask" "Sacred Life Flask" "Hallowed Life Flask" "Sanctified Life Flask" "Divine Life Flask" "Eternal Life Flask"
+	Quality = 0
 	SetFontSize 30
 	DisableDropSound True
 
 Hide
 	Rarity Normal Magic
 	Class == "Hybrid Flasks"
-        BaseType == "Small Hybrid Flask" "Medium Hybrid Flask" "Large Hybrid Flask" "Colossal Hybrid Flask" "Sacred Hybrid Flask" "Hallowed Hybrid Flask"
-        Quality = 0
+	BaseType == "Small Hybrid Flask" "Medium Hybrid Flask" "Large Hybrid Flask" "Colossal Hybrid Flask" "Sacred Hybrid Flask" "Hallowed Hybrid Flask"
+	Quality = 0
 	SetFontSize 30
 	DisableDropSound True
 
 Hide
 	Rarity Normal Magic
-        Class == "Utility Flasks"
+	Class == "Utility Flasks"
 	BaseType == "Amethyst Flask" "Aquamarine Flask" "Basalt Flask" "Bismuth Flask" "Corundum Flask" "Diamond Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Ruby Flask" "Sapphire Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask" "Topaz Flask" # "Gold Flask" "Iron Flask"
-        Quality = 0
-        ItemLevel <= 83
+	Quality = 0
+	ItemLevel <= 83
 	SetFontSize 30
 	DisableDropSound True
 """
@@ -928,68 +925,68 @@ Show
 	Class == "Maps"
 	SetFontSize 45
 	SetBorderColor 9 29 230 255
-        PlayAlertSound 7 200
+	PlayAlertSound 7 200
 	PlayEffect Blue
 	MinimapIcon 2 Blue Square
-        Continue
+	Continue
 
 Show
 	MapTier <= 15
-        MapTier >= 11
+	MapTier >= 11
 	Class == "Maps"
 	SetFontSize 40
 	SetBorderColor 230 29 9 255
-        PlayAlertSound 8 100
+	PlayAlertSound 8 100
 	PlayEffect Red
 	MinimapIcon 2 Red Square
-        Continue
+	Continue
 
 Show
 	MapTier >= 6
-        MapTier <= 10
+	MapTier <= 10
 	Class == "Maps"
 	SetFontSize 40
 	SetBorderColor 251 204 65 255
-        PlayAlertSound 9 100
+	PlayAlertSound 9 100
 	PlayEffect Yellow
 	MinimapIcon 2 Yellow Square
-        Continue
+	Continue
 
 Show
 	MapTier <= 5
 	Class == "Maps"
 	SetFontSize 35
 	SetBorderColor 255 255 255 255
-        PlayAlertSound 9 100
+	PlayAlertSound 9 100
 	PlayEffect White
 	MinimapIcon 2 White Square
-        Continue
+	Continue
 
 # ------ Backgrounds -------
 
 Show
-        Class == "Maps"
-        Quality >= 1
+	Class == "Maps"
+	Quality >= 1
 	SetBackgroundColor 0 100 0 255
-        Continue
+	Continue
 
 Show
-        Class == "Maps"
-        Quality 0
+	Class == "Maps"
+	Quality 0
 	SetBackgroundColor 20 20 0 255
-        Continue
+	Continue
 
 Show
-        Class == "Maps"
-        MapTier = 17
+	Class == "Maps"
+	MapTier = 17
 	SetBackgroundColor 135 135 254 255
-        Continue
+	Continue
 
 Show    # Favored
-        Class == "Maps"
-        BaseType "Defiled" "Shore"
+	Class == "Maps"
+	BaseType "Defiled" "Shore"
 	SetBackgroundColor 20 46 133 255
-        Continue
+	Continue
 
 # ----------------------------
 
@@ -1098,15 +1095,15 @@ don_now_jet = """
 #============================================================================================================
 
 Show    # OLD GEM SYSTEM. Deprecated in v3.23 , replaced by Transfigured Gem Sys
-        AlternateQuality True
+	AlternateQuality True
 	SetFontSize 45
 	SetTextColor 61 217 15 255
-        SetBorderColor 61 217 15 255
-        SetBackgroundColor 255 0 0 255 # Red BG
-        MinimapIcon 0 Red Circle
+	SetBorderColor 61 217 15 255
+	SetBackgroundColor 255 0 0 255 # Red BG
+	MinimapIcon 0 Red Circle
 
 Show
-        HasEaterOfWorldsImplicit >= 1
+	HasEaterOfWorldsImplicit >= 1
 	SetFontSize 45
 	SetTextColor 61 217 15 255
 	SetBorderColor 61 217 15 255
@@ -1114,7 +1111,7 @@ Show
 	MinimapIcon 0 Blue Circle
 
 Show
-        ElderItem True
+	ElderItem True
 	SetFontSize 45
 	SetTextColor 61 217 15 255
 	SetBorderColor 61 217 15 255
@@ -1122,7 +1119,7 @@ Show
 	MinimapIcon 0 Blue Circle
 
 Show
-        HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 	SetFontSize 45
 	SetTextColor 61 217 15 255
 	SetBorderColor 61 217 15 255
@@ -1130,7 +1127,7 @@ Show
 	MinimapIcon 0 Yellow Circle
 
 Show
-        Scourged True
+	Scourged True
 	SetFontSize 45
 	SetTextColor 61 217 15 255
 	SetBorderColor 61 217 15 255
@@ -1138,7 +1135,7 @@ Show
 	MinimapIcon 0 Yellow Circle
 
 Show
-        HasSearingExarchImplicit >= 1
+	HasSearingExarchImplicit >= 1
 	SetFontSize 45
 	SetTextColor 61 217 15 255
 	SetBorderColor 61 217 15 255
@@ -1146,7 +1143,7 @@ Show
 	MinimapIcon 0 Purple Circle
 
 Show
-        ShaperItem True
+	ShaperItem True
 	SetFontSize 45
 	SetTextColor 61 217 15 255
 	SetBorderColor 61 217 15 255
@@ -1154,31 +1151,31 @@ Show
 	MinimapIcon 0 Purple Circle
 
 Show
-        EnchantmentPassiveNode "Area Damage" "Armour" "Attack Damage while Dual Wielding" "Attack Damage while holding a Shield" "Attack Damage" "Axe and Sword Damage" "Bow Damage" "Brand Damage" "Chance to Block Attack Damage" "Channelling Skill Damage" "Chaos Damage" "Chaos Resistance" "Cold Damage" "Critical Chance" "Dagger and Claw Damage" "Damage over Time" "Damage with Two Handed Weapons" "Effect of Non-Damaging Ailments" "Elemental Damage" "Exerted Attack Damage" "Fire Damage over Time" "Fire Damage" "Flask Duration" "Life" "Lightning Damage" "Mace and Staff Damage" "Minion Damage" "Minion Life" "Physical Damage" "Projectile Damage" "Reservation Efficiency" "Spell Damage" "Suppres" "Totem Damage" "Trap and Mine Damage" "Wand Damage"
+	EnchantmentPassiveNode "Area Damage" "Armour" "Attack Damage while Dual Wielding" "Attack Damage while holding a Shield" "Attack Damage" "Axe and Sword Damage" "Bow Damage" "Brand Damage" "Chance to Block Attack Damage" "Channelling Skill Damage" "Chaos Damage" "Chaos Resistance" "Cold Damage" "Critical Chance" "Dagger and Claw Damage" "Damage over Time" "Damage with Two Handed Weapons" "Effect of Non-Damaging Ailments" "Elemental Damage" "Exerted Attack Damage" "Fire Damage over Time" "Fire Damage" "Flask Duration" "Life" "Lightning Damage" "Mace and Staff Damage" "Minion Damage" "Minion Life" "Physical Damage" "Projectile Damage" "Reservation Efficiency" "Spell Damage" "Suppres" "Totem Damage" "Trap and Mine Damage" "Wand Damage"
 	SetFontSize 45
 	SetTextColor 61 217 15 255
 	SetBorderColor 61 217 15 255
 	SetBackgroundColor 0 255 255 255 # Cyan BG
-        MinimapIcon 0 Cyan Circle
+	MinimapIcon 0 Cyan Circle
 
 Show    # For cluster jewels, check number of passives
-        EnchantmentPassiveNum <= 1
-        SetFontSize 45
-        SetTextColor 61 217 15 255
+	EnchantmentPassiveNum <= 1
+	SetFontSize 45
+	SetTextColor 61 217 15 255
 	SetBorderColor 61 217 15 255
-        SetBackgroundColor 133 20 46 255 # Wine Red BG
+	SetBackgroundColor 133 20 46 255 # Wine Red BG
 	MinimapIcon 0 Red Circle
 
 Show
-        EnchantmentPassiveNum >= 1
-        SetFontSize 45
-        SetTextColor 61 217 15 255
+	EnchantmentPassiveNum >= 1
+	SetFontSize 45
+	SetTextColor 61 217 15 255
 	SetBorderColor 61 217 15 255
-        SetBackgroundColor 133 20 46 255 # Wine Red BG
+	SetBackgroundColor 133 20 46 255 # Wine Red BG
 	MinimapIcon 0 Red Circle
 
 Show
-        HasExplicitMod >=1 "Abating" "Abbot's" "Acuminate" "Adaptable" "Adept's" "Adroit" "Alpine" "Apparition's" "Apprentice's" "Archmage's" "Arctic" "Athlete's" "Battlemage's" "Beatified" "Beclouded" "Behemoth's" "Betrayer's" "Bishop's" "Biting" "Bitter" "Blasting" "Blazing" "Blistering" "Blue" "Bolting" "Brinerot" "Burning" "Burnished" "Buzzing" "Carapaced" "Carbonising" "Chaotic" "Charged" "Cheetah's" "Cherub's" "Chilled" "Chilling" "Citaqualotl" "Citaqualotl's" "Condensing" "Consecrated" "Corrosive" "Countess's" "Crackling" "Cremating" "Crocodile's" "Cruel" "Cryomancer's" "Crystalising" "Crystalline" "Dazzling" "Deceiver's" "Decrepifying" "Devastating" "Dictator's" "Discharging" "Dissolving" "Djinn's" "Duchess's" "Durable" "Eidolon's" "Electrocuting" "Elevated" "Elusory" "Emperor's" "Empress's" "Encased" "Enduring" "Enlightened" "Entombing" "Enveloped" "Esh's" "Essences" "Exalter's" "Exarch's" "Excruciating" "Expediting" "Fawn's" "Fearless" "Fecund" "Festering" "Flame Shaper's" "Flaming" "Flaring" "Fleet" "Foul-tongued" "Frigid" "Frost Singer's" "Frosted" "Fugitive" "Girded" "Glaciated" "Glimmering" "Glinting" "Glittering" "Glowing" "Glyphic" "Godly" "Guatelitzi" "Guatelitzi's" "Haku's" "Hale" "Hallowed" "Harrowing" "Haunted" "Healthy" "Heated" "Heavy" "Hellion's" "Hero's" "Hissing" "Honed" "Humming" "Ibex's" "Icy" "Illusion's" "Illusory" "Impaling" "Impenetrable" "Impervious" "Impregnable" "Incandescent" "Incanter's" "Incinerating" "Incisive" "Incorporeal" "Indomitable" "Infernal" "Inspired" "Interpermeated" "Interpolated" "Ionising" "Lacerating" "Lancing" "Lava Conjurer's" "Leadership" "Legend's" "Lich's" "Lissome" "Lithomancer's" "Mad Lord's" "Mage's" "Magister's" "Magmatic" "Magnifying" "Marchioness's" "Martinet's" "Master's" "Matatl" "Matatl's" "Mazarine" "Merciless" "Mirage's" "Mortifying" "Motivating" "Mutewind" "Nautilus's" "Nightmare's" "Overpowering" "Overseer's" "Paragon's" "Perandus'" "Phantasm's" "Piercing" "Polar" "Polished" "Priest's" "Prime" "Prior's" "Protective" "Provocateur's" "Puhuarte" "Pulsing" "Puncturing" "Pyroclastic" "Queen's" "Quintessential" "Ram's" "Rapturous" "Redblade" "Resilient" "Resolute" "Resonating" "Resplendent" "Riker" "Rimedweller's" "Robust" "Rotund" "Runic" "Runner's" "Rupturing" "Saintly" "Sanguine" "Sapphire" "Scholar's" "Scintillating" "Searing" "Seething" "Seraphim's" "Serrated" "Sharpened" "Sharpshooter's" "Shimmering" "Shining" "Shocking" "Sizzling" "Smiting" "Smoking" "Smouldering" "Snapping" "Sorcerer's" "Spirit's" "Splintermind's" "Sprinter's" "Stallion's" "Stalwart" "Stormbrewer's" "Stout" "Strong-Willed" "Sturdy" "Subterranean" "Surging" "Tacati" "Tacati's" "Taskmaster's" "Tecton's" "Tempered" "Tempest Master's" "Thaumaturgist's" "Thunderhand's" "Thwarting" "Topotante" "Topotante's" "Trapping" "Tul's" "Turncoat's" "Tyrannical" "Ultramarine" "Unassailable" "Unfaltering" "Unleashed" "Unmoving" "Unreal" "Unwavering" "Unyielding" "Urchin's" "Vaporous" "Vapourising" "Versatile" "Vicious" "Victor's" "Vigorous" "Vile" "Virile" "Vivid" "Vulcanist's" "Warding" "Wicked" "Winter Beckoner's" "Wizard's" "Xopec" "Xoph's" "Zaffre" "of Abjuration" "of Abuse" "of Acclimatisation" "of Acrimony" "of Adaptation" "of Adaption" "of Agitation" "of Archery" "of Arcing" "of Ashes" "of Athletics" "of Atrophy" "of Atrophying" "of Authority" "of Bameth" "of Berserking" "of Blasting" "of Blinding" "of Calamity" "of Celebration" "of Chilling" "of Coercion" "of Collision" "of Combusting" "of Command" "of Conflagrating" "of Convalescence" "of Crafting" "of Craiceann" "of Cunning" "of Delaying" "of Demolishing" "of Destruction" "of Deteriorating" "of Discharge" "of Disintegrating" "of Dissolution" "of Distraction" "of Ease" "of Efficiency" "of Enchanting" "of Entropy" "of Ephij" "of Euphoria" "of Everlasting" "of Eviction" "of Exile" "of Expertise" "of Expulsion" "of Exsanguinating" "of Fame" "of Farrul" "of Fenumus" "of Ferocity" "of Finesse" "of Fireproofing" "of Flames" "of Fleshbinding" "of Floe" "of Fortitude" "of Fury" "of Gelidity" "of Glaciation" "of Grandmastery" "of Grounding" "of Haast" "of Harmony" "of Harvest Beasts" "of Haunting" "of Heartstopping" "of Heating" "of Hemorrhaging" "of Hindering" "of Immolation" "of Incision" "of Incitation" "of Infamy" "of Insulation" "of Legerdemain" "of Lioneye" "of Liquefaction" "of Many" "of Mastery" "of Melting" "of Menace" "of Metamorphosis" "of Mysticism" "of Needling" "of Nimbleness" "of Nirvana" "of Nullification" "of Obstruction" "of Opportunity" "of Orchestration" "of Order" "of Penetrating" "of Phasing" "of Phlebotomising" "of Poise" "of Potency" "of Prestidigitation" "of Puhuarte" "of Puncturing" "of Rage" "of Recuperation" "of Relishing" "of Rending" "of Resilience" "of Resistance" "of Reveling" "of Revitalization" "of Revoking" "of Rime" "of Ruin" "of Saqawal" "of Shelter" "of Shocking" "of Skill" "of Snuffing" "of Sortilege" "of Spellcraft" "of Spirit" "of Splintering" "of Stifling" "of Suturing" "of Tacati" "of Talent" "of Taunting" "of Training" "of Tzteosh" "of Unholy Might" "of Unmaking" "of Vampirism" "of Variegation" "of Vivification" "of Voltage" "of Weaponcraft" "of Will" "of Wounding" "of Youth" "of Zeal" "of Zealousness" "of the Assassin" "of the Bastion" "of the Blur" "of the Comet" "of the Conservator" "of the Deadeye" "of the Deathless" "of the Elements" "of the Essence" "of the Fanatical" "of the Furnace" "of the Gale" "of the Gelid" "of the Genius" "of the Gods" "of the Godslayer" "of the Hearth" "of the Ice" "of the Inferno" "of the Infinite" "of the Inquisitor" "of the Jaguar" "of the Kraken" "of the Leviathan" "of the Lightning Rod" "of the Lightning" "of the Maelstrom" "of the Magma" "of the Mammoth" "of the Marksman" "of the Multiverse" "of the Phantom" "of the Phoenix" "of the Polar Bear" "of the Polymath" "of the Protector" "of the Rainbow" "of the Ranger" "of the Sacred Grove" "of the Savant" "of the Solar Storm" "of the Span" "of the Taskmaster" "of the Tempest" "of the Titan" "of the Tourniquet" "of the Underground" "of the Universe" "of the Virtuoso" "of the Volcano" "of the Walrus" "of the Wind" "of the Zealous"
+	HasExplicitMod >=1 "Abating" "Abbot's" "Acuminate" "Adaptable" "Adept's" "Adroit" "Alpine" "Apparition's" "Apprentice's" "Archmage's" "Arctic" "Athlete's" "Battlemage's" "Beatified" "Beclouded" "Behemoth's" "Betrayer's" "Bishop's" "Biting" "Bitter" "Blasting" "Blazing" "Blistering" "Blue" "Bolting" "Brinerot" "Burning" "Burnished" "Buzzing" "Carapaced" "Carbonising" "Chaotic" "Charged" "Cheetah's" "Cherub's" "Chilled" "Chilling" "Citaqualotl" "Citaqualotl's" "Condensing" "Consecrated" "Corrosive" "Countess's" "Crackling" "Cremating" "Crocodile's" "Cruel" "Cryomancer's" "Crystalising" "Crystalline" "Dazzling" "Deceiver's" "Decrepifying" "Devastating" "Dictator's" "Discharging" "Dissolving" "Djinn's" "Duchess's" "Durable" "Eidolon's" "Electrocuting" "Elevated" "Elusory" "Emperor's" "Empress's" "Encased" "Enduring" "Enlightened" "Entombing" "Enveloped" "Esh's" "Essences" "Exalter's" "Exarch's" "Excruciating" "Expediting" "Fawn's" "Fearless" "Fecund" "Festering" "Flame Shaper's" "Flaming" "Flaring" "Fleet" "Foul-tongued" "Frigid" "Frost Singer's" "Frosted" "Fugitive" "Girded" "Glaciated" "Glimmering" "Glinting" "Glittering" "Glowing" "Glyphic" "Godly" "Guatelitzi" "Guatelitzi's" "Haku's" "Hale" "Hallowed" "Harrowing" "Haunted" "Healthy" "Heated" "Heavy" "Hellion's" "Hero's" "Hissing" "Honed" "Humming" "Ibex's" "Icy" "Illusion's" "Illusory" "Impaling" "Impenetrable" "Impervious" "Impregnable" "Incandescent" "Incanter's" "Incinerating" "Incisive" "Incorporeal" "Indomitable" "Infernal" "Inspired" "Interpermeated" "Interpolated" "Ionising" "Lacerating" "Lancing" "Lava Conjurer's" "Leadership" "Legend's" "Lich's" "Lissome" "Lithomancer's" "Mad Lord's" "Mage's" "Magister's" "Magmatic" "Magnifying" "Marchioness's" "Martinet's" "Master's" "Matatl" "Matatl's" "Mazarine" "Merciless" "Mirage's" "Mortifying" "Motivating" "Mutewind" "Nautilus's" "Nightmare's" "Overpowering" "Overseer's" "Paragon's" "Perandus'" "Phantasm's" "Piercing" "Polar" "Polished" "Priest's" "Prime" "Prior's" "Protective" "Provocateur's" "Puhuarte" "Pulsing" "Puncturing" "Pyroclastic" "Queen's" "Quintessential" "Ram's" "Rapturous" "Redblade" "Resilient" "Resolute" "Resonating" "Resplendent" "Riker" "Rimedweller's" "Robust" "Rotund" "Runic" "Runner's" "Rupturing" "Saintly" "Sanguine" "Sapphire" "Scholar's" "Scintillating" "Searing" "Seething" "Seraphim's" "Serrated" "Sharpened" "Sharpshooter's" "Shimmering" "Shining" "Shocking" "Sizzling" "Smiting" "Smoking" "Smouldering" "Snapping" "Sorcerer's" "Spirit's" "Splintermind's" "Sprinter's" "Stallion's" "Stalwart" "Stormbrewer's" "Stout" "Strong-Willed" "Sturdy" "Subterranean" "Surging" "Tacati" "Tacati's" "Taskmaster's" "Tecton's" "Tempered" "Tempest Master's" "Thaumaturgist's" "Thunderhand's" "Thwarting" "Topotante" "Topotante's" "Trapping" "Tul's" "Turncoat's" "Tyrannical" "Ultramarine" "Unassailable" "Unfaltering" "Unleashed" "Unmoving" "Unreal" "Unwavering" "Unyielding" "Urchin's" "Vaporous" "Vapourising" "Versatile" "Vicious" "Victor's" "Vigorous" "Vile" "Virile" "Vivid" "Vulcanist's" "Warding" "Wicked" "Winter Beckoner's" "Wizard's" "Xopec" "Xoph's" "Zaffre" "of Abjuration" "of Abuse" "of Acclimatisation" "of Acrimony" "of Adaptation" "of Adaption" "of Agitation" "of Archery" "of Arcing" "of Ashes" "of Athletics" "of Atrophy" "of Atrophying" "of Authority" "of Bameth" "of Berserking" "of Blasting" "of Blinding" "of Calamity" "of Celebration" "of Chilling" "of Coercion" "of Collision" "of Combusting" "of Command" "of Conflagrating" "of Convalescence" "of Crafting" "of Craiceann" "of Cunning" "of Delaying" "of Demolishing" "of Destruction" "of Deteriorating" "of Discharge" "of Disintegrating" "of Dissolution" "of Distraction" "of Ease" "of Efficiency" "of Enchanting" "of Entropy" "of Ephij" "of Euphoria" "of Everlasting" "of Eviction" "of Exile" "of Expertise" "of Expulsion" "of Exsanguinating" "of Fame" "of Farrul" "of Fenumus" "of Ferocity" "of Finesse" "of Fireproofing" "of Flames" "of Fleshbinding" "of Floe" "of Fortitude" "of Fury" "of Gelidity" "of Glaciation" "of Grandmastery" "of Grounding" "of Haast" "of Harmony" "of Harvest Beasts" "of Haunting" "of Heartstopping" "of Heating" "of Hemorrhaging" "of Hindering" "of Immolation" "of Incision" "of Incitation" "of Infamy" "of Insulation" "of Legerdemain" "of Lioneye" "of Liquefaction" "of Many" "of Mastery" "of Melting" "of Menace" "of Metamorphosis" "of Mysticism" "of Needling" "of Nimbleness" "of Nirvana" "of Nullification" "of Obstruction" "of Opportunity" "of Orchestration" "of Order" "of Penetrating" "of Phasing" "of Phlebotomising" "of Poise" "of Potency" "of Prestidigitation" "of Puhuarte" "of Puncturing" "of Rage" "of Recuperation" "of Relishing" "of Rending" "of Resilience" "of Resistance" "of Reveling" "of Revitalization" "of Revoking" "of Rime" "of Ruin" "of Saqawal" "of Shelter" "of Shocking" "of Skill" "of Snuffing" "of Sortilege" "of Spellcraft" "of Spirit" "of Splintering" "of Stifling" "of Suturing" "of Tacati" "of Talent" "of Taunting" "of Training" "of Tzteosh" "of Unholy Might" "of Unmaking" "of Vampirism" "of Variegation" "of Vivification" "of Voltage" "of Weaponcraft" "of Will" "of Wounding" "of Youth" "of Zeal" "of Zealousness" "of the Assassin" "of the Bastion" "of the Blur" "of the Comet" "of the Conservator" "of the Deadeye" "of the Deathless" "of the Elements" "of the Essence" "of the Fanatical" "of the Furnace" "of the Gale" "of the Gelid" "of the Genius" "of the Gods" "of the Godslayer" "of the Hearth" "of the Ice" "of the Inferno" "of the Infinite" "of the Inquisitor" "of the Jaguar" "of the Kraken" "of the Leviathan" "of the Lightning Rod" "of the Lightning" "of the Maelstrom" "of the Magma" "of the Mammoth" "of the Marksman" "of the Multiverse" "of the Phantom" "of the Phoenix" "of the Polar Bear" "of the Polymath" "of the Protector" "of the Rainbow" "of the Ranger" "of the Sacred Grove" "of the Savant" "of the Solar Storm" "of the Span" "of the Taskmaster" "of the Tempest" "of the Titan" "of the Tourniquet" "of the Underground" "of the Universe" "of the Virtuoso" "of the Volcano" "of the Walrus" "of the Wind" "of the Zealous"
 	SetFontSize 45
 	SetTextColor 61 217 15 255
 	SetBorderColor 61 217 15 255
@@ -1199,18 +1196,18 @@ hide_jew_gem_amul_belt_ring = """
 Hide
 	Rarity Magic
 	Class == "Jewel"
-        Quality = 0
+	Quality = 0
 	SetFontSize 30
 	# SetBackgroundColor 20 90 0 180
-        DisableDropSound True
+	DisableDropSound True
 
 Hide
 	Class == "Skill Gems" "Support Gems"
-        TransfiguredGem False
-        Quality = 0
-        GemLevel < 15
+	TransfiguredGem False
+	Quality = 0
+	GemLevel < 15
 	SetFontSize 30
-        DisableDropSound True
+	DisableDropSound True
 
 #
 # # Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
@@ -1223,19 +1220,19 @@ Hide
 Hide
 	Rarity Normal
 	Class == "Amulets"
-        BaseType == "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
+	BaseType == "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
 	SetFontSize 30
-        DisableDropSound True
+	DisableDropSound True
 
 Hide
 	Rarity Magic
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        SynthesisedItem False
-        Class == "Amulets"
-        BaseType == "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
+	AnyEnchantment False
+	FracturedItem False
+	HasCruciblePassiveTree False
+	Identified False
+	SynthesisedItem False
+	Class == "Amulets"
+	BaseType == "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
 	SetFontSize 30
 	DisableDropSound True
 
@@ -1245,49 +1242,49 @@ Hide
 
 Hide
 	Rarity Rare
-        AnyEnchantment False
-        Corrupted False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        Mirrored False
-        SynthesisedItem False
+	AnyEnchantment False
+	Corrupted False
+	FracturedItem False
+	HasCruciblePassiveTree False
+	Identified False
+	Mirrored False
+	SynthesisedItem False
 	Class == "Belts"
-        BaseType == "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
-        ItemLevel <= 85
-        SetFontSize 30
+	BaseType == "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
+	ItemLevel <= 85
+	SetFontSize 30
 	DisableDropSound True
 
 Hide
 	Rarity Rare
-        Corrupted True
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        Mirrored False
-        SynthesisedItem False
-        Class == "Belts"
-        BaseType == "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
+	Corrupted True
+	AnyEnchantment False
+	FracturedItem False
+	HasCruciblePassiveTree False
+	Identified False
+	Mirrored False
+	SynthesisedItem False
+	Class == "Belts"
+	BaseType == "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
 	ItemLevel < 70
 
 Hide
 	Rarity Magic
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        SynthesisedItem False
-        Class == "Belts"
-        BaseType == "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
+	AnyEnchantment False
+	FracturedItem False
+	HasCruciblePassiveTree False
+	SynthesisedItem False
+	Class == "Belts"
+	BaseType == "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
 	SetFontSize 30
 	DisableDropSound True
 
 Hide
 	Rarity Normal
 	Class == "Belts"
-        BaseType == "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
+	BaseType == "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
 	SetFontSize 30
-        DisableDropSound True
+	DisableDropSound True
 
 # ------ Rings ------  Class == "Rings"
 
@@ -1298,22 +1295,22 @@ Hide
 Hide
 	Rarity Normal
 	Class == "Rings"
-        BaseType == "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Bone Ring" "Amethyst Ring" "Prismatic Ring"
+	BaseType == "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Bone Ring" "Amethyst Ring" "Prismatic Ring"
 	SetFontSize 30
-        DisableDropSound True
+	DisableDropSound True
 
 Hide
 	Rarity Magic
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        SynthesisedItem False
-        Class == "Rings"
-        BaseType == "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Bone Ring" "Amethyst Ring" "Prismatic Ring"
+	AnyEnchantment False
+	FracturedItem False
+	HasCruciblePassiveTree False
+	Identified False
+	SynthesisedItem False
+	Class == "Rings"
+	BaseType == "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Bone Ring" "Amethyst Ring" "Prismatic Ring"
 	SetFontSize 30
 	DisableDropSound True
-        
+	
 """
 
 # Body Armours 
@@ -1462,7 +1459,7 @@ hide_staves = ''' "Gnarled Branch" "Primitive Staff" "Long Staff" "Royal Staff" 
 hide_tohswords = ''' "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Pecoraro" "Spiraled Foil" "Vaal Rapier" "Jewelled Foil"'''
 # Two Hand Axes
 hide_thaxes = ''' "Stone Axe" "Jade Chopper" "Woodsplitter" "Poleaxe" "Double Axe" "Gilded Axe" "Shadow Axe" "Dagger Axe" "Jasper Chopper" "Timber Axe" "Headsman Axe" "Labrys" "Noble Axe" "Abyssal Axe" "Talon Axe" "Ezomyte Axe" "Despot Axe"'''
-         
+	 
 
 
 hide_weapons = f"""
