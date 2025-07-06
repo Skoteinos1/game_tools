@@ -4,7 +4,7 @@ show_rgb_tf = True
 
 show_rgb = ""
 if show_rgb_tf:
-    show_rgb = """Show
+	show_rgb = """Show
 	SocketGroup "RGB"
 	Width 1
 	SetFontSize 40
@@ -17,7 +17,7 @@ Show
 
 header = """# https://www.pathofexile.com/item-filter/about
 #============================================================================================================
-#       All Classes
+#	   All Classes
 #============================================================================================================
 # Class == "Amulets" "Belts" "Body Armour" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Dagger" "Rune Daggers" "Sceptre" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wand" "Wands" "Warstaves"
 # "Abyss Jewels" "Jewel" "Jewels"
@@ -47,7 +47,7 @@ header = """# https://www.pathofexile.com/item-filter/about
 
 
 #============================================================================================================
-#       Commands
+#	   Commands
 #============================================================================================================
 
 # Drop Sound -----
@@ -90,9 +90,9 @@ header = """# https://www.pathofexile.com/item-filter/about
 # GemLevel 1 >= 6
 # HasCruciblePassiveTree True
 # HasEnchantment "Enchantment Bane Damage 2"
-# HasEaterOfWorldsImplicit >= 1    (1:Lesser, 2:Greater, 3:Grand, 4:Exceptional, 5:Exquisite, 6:Perfect)
+# HasEaterOfWorldsImplicit >= 1	(1:Lesser, 2:Greater, 3:Grand, 4:Exceptional, 5:Exquisite, 6:Perfect)
 # HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-# HasSearingExarchImplicit >= 1    (1:Lesser, 2:Greater, 3:Grand, 4:Exceptional, 5:Exquisite, 6:Perfect)
+# HasSearingExarchImplicit >= 1	(1:Lesser, 2:Greater, 3:Grand, 4:Exceptional, 5:Exquisite, 6:Perfect)
 # Identified False True
 # ItemLevel <= 15
 # LinkedSockets >= 5
@@ -124,7 +124,7 @@ header = """# https://www.pathofexile.com/item-filter/about
 color_text = """
 
 #============================================================================================================
-#       Color
+#	   Color
 #============================================================================================================
 
 # -------------- Text Color ----------------------------
@@ -262,12 +262,12 @@ Show
 	MinimapIcon 2 Green Circle
 	Continue
 
-Show    # Atlas base
+Show	# Atlas base
 	BaseType == "Apothecary's Gloves" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"  "Two-Toned Boots"  "Two-Toned Boots" "Convoking Wand" "Bone Helmet" "Artillery Quiver" "Marble Amulet" "Seaglass Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Cerulean Ring" "Iolite Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
 	SetBackgroundColor 0 188 155 255
 	Continue
 
-Show    # Talismans
+Show	# Talismans
 	AnyEnchantment True
 	SetBackgroundColor 255 0 0 255 # Red BG
 	MinimapIcon 0 Red Circle
@@ -307,7 +307,7 @@ Show
 currency = """
 
 #============================================================================================================
-#       Currency
+#	   Currency
 #============================================================================================================
 
 Show
@@ -386,17 +386,17 @@ Show
 gems_jewels = """
 
 #============================================================================================================
-#       Gems + Jewels
+#	   Gems + Jewels
 #============================================================================================================
 
 Show
 	Rarity Rare
-    	Class == "Abyss Jewels" "Jewel" "Jewels"
+	Class == "Abyss Jewels" "Jewel" "Jewels"
 	SetFontSize 40
 
 Show
 	Rarity Magic
-    	Class == "Abyss Jewels"
+	Class == "Abyss Jewels"
 	SetFontSize 40
 
 Show
@@ -476,7 +476,7 @@ Show
 
 weapon_armour = f"""
 #============================================================================================================
-#       Weapons+Armour
+#	   Weapons+Armour
 #============================================================================================================
 
 
@@ -616,7 +616,7 @@ Show
 
 # ----------------------------------------------------
 
-Show    # Atlas base
+Show	# Atlas base
 	BaseType == "Apothecary's Gloves" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots"  "Two-Toned Boots"  "Two-Toned Boots" "Convoking Wand" "Bone Helmet" "Artillery Quiver" "Marble Amulet" "Seaglass Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Cerulean Ring" "Iolite Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
 	# BaseType == "Atlas"
 	# Rarity Normal Magic Rare
@@ -857,7 +857,7 @@ Hide
 
 flasks = """
 #============================================================================================================
-#       Flasks
+#	   Flasks
 #============================================================================================================
 
 Show
@@ -916,7 +916,7 @@ Hide
 
 maps = """
 #============================================================================================================
-#       Maps
+#	   Maps
 #============================================================================================================
 
 # ------ Borders -------
@@ -982,7 +982,7 @@ Show
 	SetBackgroundColor 135 135 254 255
 	Continue
 
-Show    # Favored
+Show	# Favored
 	Class == "Maps"
 	BaseType "Defiled" "Shore"
 	SetBackgroundColor 20 46 133 255
@@ -1094,7 +1094,7 @@ don_now_jet = """
 # Don nov jet
 #============================================================================================================
 
-Show    # OLD GEM SYSTEM. Deprecated in v3.23 , replaced by Transfigured Gem Sys
+Show	# OLD GEM SYSTEM. Deprecated in v3.23 , replaced by Transfigured Gem Sys
 	AlternateQuality True
 	SetFontSize 45
 	SetTextColor 61 217 15 255
@@ -1158,7 +1158,7 @@ Show
 	SetBackgroundColor 0 255 255 255 # Cyan BG
 	MinimapIcon 0 Cyan Circle
 
-Show    # For cluster jewels, check number of passives
+Show	# For cluster jewels, check number of passives
 	EnchantmentPassiveNum <= 1
 	SetFontSize 45
 	SetTextColor 61 217 15 255
@@ -1394,15 +1394,15 @@ Hide
 	DisableDropSound True
 
 Hide
-    Rarity Rare
-    Corrupted True
-    AnyEnchantment False
-    FracturedItem False
-    HasCruciblePassiveTree False
-    Identified False
-    Mirrored False
-    SynthesisedItem False
-    BaseType == {hide_barm + hide_boots + hide_gloves + hide_helmets + hide_shields}
+	Rarity Rare
+	Corrupted True
+	AnyEnchantment False
+	FracturedItem False
+	HasCruciblePassiveTree False
+	Identified False
+	Mirrored False
+	SynthesisedItem False
+	BaseType == {hide_barm + hide_boots + hide_gloves + hide_helmets + hide_shields}
 	ItemLevel < 70
 
  Hide
@@ -1467,7 +1467,7 @@ hide_thswords = ''' "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Swo
 hide_wands = ''' "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Calling Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Coiled Wand" "Convening Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand"'''
 # Warstaves
 hide_warstaves = ''' "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Foul Staff" "Ezomyte Staff"'''
-    
+	
 
 
 hide_weapons = f"""
@@ -1525,7 +1525,7 @@ hide_weapons = f"""
 
 # ALL
 # "Gnarled Branch" "Primitive Staff" "Long Staff" "Royal Staff" "Crescent Staff" "Woodful Staff" "Quarterstaff" "Reciprocation Staff" "Highborn Staff" "Moon Staff" "Primordial Staff" "Lathi" "Imperial Staff" "Battery Staff" "Eclipse Staff"
-#    "Reciprocation Staff" "Battery Staff" "Eclipse Staff" "Imperial Staff"
+#	"Reciprocation Staff" "Battery Staff" "Eclipse Staff" "Imperial Staff"
 
 # ------ Thrusting One Hand Swords ------  Class == "Thrusting One Hand Swords"
 
@@ -1577,7 +1577,7 @@ Hide
 	ItemLevel <= 85
 	SetFontSize 30
 	DisableDropSound True
-    
+	
 Hide
 	Rarity Rare
 	Corrupted True
@@ -1606,7 +1606,7 @@ Hide
 	FracturedItem False
 	HasCruciblePassiveTree False
 	SynthesisedItem False
-    Identified False
+	Identified False
 	BaseType == {hide_wands}
 	SetFontSize 30
 	DisableDropSound True
@@ -1616,7 +1616,7 @@ Hide
 	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes + hide_thmaces + hide_thswords + hide_wands + hide_warstaves}
 	SetFontSize 30
 	DisableDropSound True
-    
+	
 """
 
 
@@ -1625,7 +1625,7 @@ hide = hide_jew_gem_amul_belt_ring + hide_armour + hide_weapons
 
 ee = """
 #============================================================================================================
-#       Show EE
+#	   Show EE
 #============================================================================================================
 
 Show
@@ -1646,4 +1646,4 @@ Show
 s = header + color_text + color_border + color_background + custom1 + currency + gems_jewels + weapon_armour + flasks + maps + don_now_jet + hide + ee
 
 with open("Strict Code.filter", "w") as f:
-    f.write(s)
+	f.write(s)
