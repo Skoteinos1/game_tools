@@ -142,7 +142,7 @@ for jewel in trade_list:
     coins = jewel[0].split(' ')[0]
     if coins not in hubris_data:
         hubris_data[coins] = {}
-    if socket not in hubris_data[coins]:
+    if str(socket) not in hubris_data[coins]:
         if not browser_started:
             initiate_browser()
             driver.get(page_url)
