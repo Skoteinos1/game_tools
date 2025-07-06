@@ -1,4 +1,3 @@
-
 show_rgb_tf = True
 # show_rgb_tf = False
 
@@ -1313,6 +1312,7 @@ Hide
 	
 """
 
+
 # Body Armours 
 hide_barm = '''"Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Arena Plate" "Lordly Plate" "Bronze Plate" "Battle Plate" "Sun Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Crusader Plate" "Astral Plate" "Gladiator Plate" "Glorious Plate" "Titan Plate" "Legion Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Exquisite Leather" "Zodiac Leather" "Assassin's Garb" "Supreme Leather" "Astral Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Mage's Vestment" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Occultist's Vestment" "Widowsilk Robe" "Vaal Regalia" "Arcane Vestment" "Nightweave Robe" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Full Scale Armour" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Full Wyrmscale" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Full Wyvernscale" "Marshall's Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Holy Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Conquest Chainmail" "Elegant Ringmail" "Saint's Hauberk" "Saintly Chainmail" "Grand Ringmail" "Paladin's Hauberk" "Padded Vest" "Oiled Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat" "Blood Raiment" "Sadist Garb" "Carnal Armour" "Sanguine Raiment" "Torturer Garb"'''
 # Boots
@@ -1381,6 +1381,7 @@ hide_armour = f"""
 
 Hide
 	Rarity Rare
+	AreaLevel >= 68
 	AnyEnchantment False
 	Corrupted False
 	FracturedItem False
@@ -1395,6 +1396,7 @@ Hide
 
 Hide
 	Rarity Rare
+	AreaLevel >= 68
 	Corrupted True
 	AnyEnchantment False
 	FracturedItem False
@@ -1407,6 +1409,7 @@ Hide
 
  Hide
 	Rarity Magic
+	AreaLevel >= 68
 	AnyEnchantment False
 	FracturedItem False
 	HasCruciblePassiveTree False
@@ -1419,6 +1422,7 @@ Hide
 
 Hide
 	Rarity Magic
+	AreaLevel >= 68
 	AnyEnchantment False
 	FracturedItem False
 	HasCruciblePassiveTree False
@@ -1429,6 +1433,7 @@ Hide
 
 Hide
 	Rarity Normal
+	AreaLevel >= 45
 	BaseType == {hide_barm + hide_boots + hide_gloves + hide_helmets + hide_shields}
 	SetFontSize 30
 	DisableDropSound True
@@ -1566,6 +1571,7 @@ hide_weapons = f"""
 
 Hide
 	Rarity Rare
+	AreaLevel >= 68
 	AnyEnchantment False
 	Corrupted False
 	FracturedItem False
@@ -1580,6 +1586,7 @@ Hide
 	
 Hide
 	Rarity Rare
+	AreaLevel >= 68
 	Corrupted True
 	AnyEnchantment False
 	FracturedItem False
@@ -1592,6 +1599,7 @@ Hide
 
 Hide
 	Rarity Magic
+	AreaLevel >= 68
 	AnyEnchantment False
 	FracturedItem False
 	HasCruciblePassiveTree False
@@ -1602,6 +1610,7 @@ Hide
 
 Hide
 	Rarity Magic
+	AreaLevel >= 68
 	AnyEnchantment False
 	FracturedItem False
 	HasCruciblePassiveTree False
@@ -1613,6 +1622,7 @@ Hide
 
 Hide
 	Rarity Normal
+	AreaLevel >= 45
 	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes + hide_thmaces + hide_thswords + hide_wands + hide_warstaves}
 	SetFontSize 30
 	DisableDropSound True
