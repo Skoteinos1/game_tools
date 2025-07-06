@@ -1459,7 +1459,15 @@ hide_staves = ''' "Gnarled Branch" "Primitive Staff" "Long Staff" "Royal Staff" 
 hide_tohswords = ''' "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Pecoraro" "Spiraled Foil" "Vaal Rapier" "Jewelled Foil"'''
 # Two Hand Axes
 hide_thaxes = ''' "Stone Axe" "Jade Chopper" "Woodsplitter" "Poleaxe" "Double Axe" "Gilded Axe" "Shadow Axe" "Dagger Axe" "Jasper Chopper" "Timber Axe" "Headsman Axe" "Labrys" "Noble Axe" "Abyssal Axe" "Talon Axe" "Ezomyte Axe" "Despot Axe"'''
-	 
+# Two Hand Maces
+hide_thmaces = ''' "Driftwood Maul" "Tribal Maul" "Mallet" "Sledgehammer" "Jagged Maul" "Brass Maul" "Fright Maul" "Morning Star" "Totemic Maul" "Great Mallet" "Steelhead" "Spiny Maul" "Plated Maul" "Dread Maul" "Solar Maul" "Karui Maul" "Colossus Mallet" "Piledriver" "Meatgrinder"'''
+# Two Hand Swords
+hide_thswords = ''' "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword"'''
+# Wands
+hide_wands = ''' "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Calling Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Coiled Wand" "Convening Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand"'''
+# Warstaves
+hide_warstaves = ''' "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Foul Staff" "Ezomyte Staff"'''
+    
 
 
 hide_weapons = f"""
@@ -1537,6 +1545,23 @@ hide_weapons = f"""
 # "Driftwood Maul" "Tribal Maul" "Mallet" "Sledgehammer" "Jagged Maul" "Brass Maul" "Fright Maul" "Morning Star" "Totemic Maul" "Great Mallet" "Steelhead" "Spiny Maul" "Crushing Force Magnifier" "Plated Maul" "Dread Maul" "Solar Maul" "Karui Maul" "Colossus Mallet" "Piledriver" "Meatgrinder" "Imperial Maul" "Terror Maul" "Coronal Maul" "Impact Force Propagator"
 # "Tribal Maul" "Mallet" "Sledgehammer" "Jagged Maul" "Brass Maul" "Fright Maul" "Morning Star" "Totemic Maul" "Great Mallet"  "Crushing Force Magnifier" "Plated Maul"  "Solar Maul" "Karui Maul" "Imperial Maul" "Terror Maul" "Coronal Maul" "Impact Force Propagator"
 
+# ------ Two Hand Swords ------  Class == "Two Hand Swords"
+
+# ALL
+# "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Blasting Blade" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Banishing Blade" "Exquisite Blade"
+# "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Blasting Blade" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade" "Infernal Sword" "Banishing Blade" "Exquisite Blade"
+
+# ------ Wands ------  Class == "Wands"
+
+# ALL
+# "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Calling Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Coiled Wand" "Congregator Wand" "Convening Wand" "Omen Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand" "Prophecy Wand" "Accumulator Wand" "Profane Wand" "Convoking Wand"
+
+# ------ Warstaves ------  Class == "Warstaves"
+
+# ALL
+# "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Potentiality Rod" "Foul Staff" "Ezomyte Staff" "Maelström Staff" "Judgement Staff" "Eventuality Rod"
+#  "Potentiality Rod" "Maelström Staff" "Judgement Staff" "Eventuality Rod"
+
 
 
 Hide
@@ -1548,14 +1573,11 @@ Hide
 	Identified False
 	Mirrored False
 	SynthesisedItem False
-	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes}
+	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes + hide_thmaces + hide_thswords + hide_wands + hide_warstaves}
 	ItemLevel <= 85
 	SetFontSize 30
 	DisableDropSound True
-
-
-
-
+    
 Hide
 	Rarity Rare
 	Corrupted True
@@ -1565,7 +1587,7 @@ Hide
 	Identified False
 	Mirrored False
 	SynthesisedItem False
-	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes}
+	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes + hide_thmaces + hide_thswords + hide_wands + hide_warstaves}
 	ItemLevel < 70
 
 Hide
@@ -1574,235 +1596,27 @@ Hide
 	FracturedItem False
 	HasCruciblePassiveTree False
 	SynthesisedItem False
-	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes}
+	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes + hide_thmaces + hide_thswords + hide_warstaves}
 	SetFontSize 30
 	DisableDropSound True
-
-
-
-
-
-
-Hide
-	Rarity Normal
-	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes}
-	SetFontSize 30
-	DisableDropSound True
-
-
-
-
-
-
-
-
-
-
-Hide
-	Rarity Rare
-        AnyEnchantment False
-        Corrupted False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        Mirrored False
-        SynthesisedItem False
-	Class == "Two Hand Maces"
-        BaseType == "Driftwood Maul" "Tribal Maul" "Mallet" "Sledgehammer" "Jagged Maul" "Brass Maul" "Fright Maul" "Morning Star" "Totemic Maul" "Great Mallet" "Steelhead" "Spiny Maul" "Plated Maul" "Dread Maul" "Solar Maul" "Karui Maul" "Colossus Mallet" "Piledriver" "Meatgrinder"
-        ItemLevel <= 85
-        SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Rare
-        Corrupted True
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        Mirrored False
-        SynthesisedItem False
-        Class == "Two Hand Maces"
-        BaseType == "Driftwood Maul" "Tribal Maul" "Mallet" "Sledgehammer" "Jagged Maul" "Brass Maul" "Fright Maul" "Morning Star" "Totemic Maul" "Great Mallet" "Steelhead" "Spiny Maul" "Plated Maul" "Dread Maul" "Solar Maul" "Karui Maul" "Colossus Mallet" "Piledriver" "Meatgrinder"
-	ItemLevel < 70
 
 Hide
 	Rarity Magic
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        SynthesisedItem False
-        Class == "Two Hand Maces"
-        BaseType == "Driftwood Maul" "Tribal Maul" "Mallet" "Sledgehammer" "Jagged Maul" "Brass Maul" "Fright Maul" "Morning Star" "Totemic Maul" "Great Mallet" "Steelhead" "Spiny Maul" "Plated Maul" "Dread Maul" "Solar Maul" "Karui Maul" "Colossus Mallet" "Piledriver" "Meatgrinder"
+	AnyEnchantment False
+	FracturedItem False
+	HasCruciblePassiveTree False
+	SynthesisedItem False
+    Identified False
+	BaseType == {hide_wands}
 	SetFontSize 30
 	DisableDropSound True
 
 Hide
 	Rarity Normal
-	Class == "Two Hand Maces"
-        BaseType == "Driftwood Maul" "Tribal Maul" "Mallet" "Sledgehammer" "Jagged Maul" "Brass Maul" "Fright Maul" "Morning Star" "Totemic Maul" "Great Mallet" "Steelhead" "Spiny Maul" "Plated Maul" "Dread Maul" "Solar Maul" "Karui Maul" "Colossus Mallet" "Piledriver" "Meatgrinder"
-	SetFontSize 30
-        DisableDropSound True
-
-
-# ------ Two Hand Swords ------  Class == "Two Hand Swords"
-
-# ALL
-# "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Blasting Blade" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Banishing Blade" "Exquisite Blade"
-# "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Blasting Blade" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade" "Infernal Sword" "Banishing Blade" "Exquisite Blade"
-
-Hide
-	Rarity Rare
-        AnyEnchantment False
-        Corrupted False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        Mirrored False
-        SynthesisedItem False
-	Class == "Two Hand Swords"
-        BaseType == "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword"
-        ItemLevel <= 85
-        SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Rare
-        Corrupted True
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        Mirrored False
-        SynthesisedItem False
-        Class == "Two Hand Swords"
-        BaseType == "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword"
-	ItemLevel < 70
-
-Hide
-	Rarity Magic
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        SynthesisedItem False
-        Class == "Two Hand Swords"
-        BaseType == "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword"
+	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes + hide_thmaces + hide_thswords + hide_wands + hide_warstaves}
 	SetFontSize 30
 	DisableDropSound True
-
-Hide
-	Rarity Normal
-	Class == "Two Hand Swords"
-        BaseType == "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword"
-	SetFontSize 30
-        DisableDropSound True
-
- 
-# ------ Wands ------  Class == "Wands"
-
-# ALL
-# "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Calling Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Coiled Wand" "Congregator Wand" "Convening Wand" "Omen Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand" "Prophecy Wand" "Accumulator Wand" "Profane Wand" "Convoking Wand"
-
-Hide
-	Rarity Rare
-        AnyEnchantment False
-        Corrupted False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        Mirrored False
-        SynthesisedItem False
-	Class == "Wands"
-        BaseType == "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Calling Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Coiled Wand" "Convening Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand"
-        ItemLevel <= 85
-        SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Rare
-        Corrupted True
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        Mirrored False
-        SynthesisedItem False
-        Class == "Wands"
-        BaseType == "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Calling Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Coiled Wand" "Convening Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand"
-	ItemLevel < 70
-
-Hide
-	Rarity Magic
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        SynthesisedItem False
-        Identified False
-        Class == "Wands"
-        BaseType == "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Calling Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Coiled Wand" "Convening Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand"
-	SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Normal
-	Class == "Wands"
-        BaseType == "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Calling Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Coiled Wand" "Convening Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand"
-	SetFontSize 30
-        DisableDropSound True
-
-
-
-# ------ Warstaves ------  Class == "Warstaves"
-
-# ALL
-# "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Potentiality Rod" "Foul Staff" "Ezomyte Staff" "Maelström Staff" "Judgement Staff" "Eventuality Rod"
-#  "Potentiality Rod" "Maelström Staff" "Judgement Staff" "Eventuality Rod"
-
-Hide
-	Rarity Rare
-        AnyEnchantment False
-        Corrupted False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        Mirrored False
-        SynthesisedItem False
-	Class == "Warstaves"
-        BaseType == "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Foul Staff" "Ezomyte Staff"
-        ItemLevel <= 85
-        SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Rare
-        Corrupted True
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        Identified False
-        Mirrored False
-        SynthesisedItem False
-        Class == "Warstaves"
-        BaseType == "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Foul Staff" "Ezomyte Staff"
-	ItemLevel < 70
-
-Hide
-	Rarity Magic
-        AnyEnchantment False
-        FracturedItem False
-        HasCruciblePassiveTree False
-        SynthesisedItem False
-        Class == "Warstaves"
-        BaseType == "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Foul Staff" "Ezomyte Staff"
-	SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Normal
-	Class == "Warstaves"
-        BaseType == "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Foul Staff" "Ezomyte Staff"
-	SetFontSize 30
-        DisableDropSound True
+    
 """
 
 
