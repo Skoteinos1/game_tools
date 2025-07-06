@@ -1,6 +1,12 @@
 show_rgb_tf = True
 # show_rgb_tf = False
 
+show_chaos_farm_tf = True
+# show_chaos_farm_tf = False
+
+flask_min_lvl = 74  # 84
+
+
 show_rgb = ""
 if show_rgb_tf:
 	show_rgb = """Show
@@ -13,6 +19,13 @@ Show
 	Height = 2
 	Width 2
 	SetFontSize 40"""
+
+show_chaos_farm = ''
+if show_chaos_farm_tf:
+	show_chaos_farm = '''Show   # ChaosOrbs
+    Rarity Rare
+    Class = "Amulets" "Belts" "Body Armour" "Boots" "Gloves" "Helmets" "Rings" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+    ItemLevel >= 60'''
 
 header = """# https://www.pathofexile.com/item-filter/about
 #============================================================================================================
@@ -471,6 +484,20 @@ Show
 	SetBorderColor 40 130 130 255
 	PlayEffect Grey Temp
 	MinimapIcon 1 Grey Triangle
+	
+Hide
+	Class == "Skill Gems" "Support Gems"
+	AreaLevel >= 68
+	TransfiguredGem False
+	Quality = 0
+	GemLevel < 15
+	SetFontSize 30
+	DisableDropSound True
+
+Show
+	Class == "Skill Gems" "Support Gems"
+	AreaLevel <= 68
+	
 """
 
 weapon_armour = f"""
@@ -789,7 +816,7 @@ Show
 	ItemLevel >= 86
 	SetFontSize 30
 
-
+{show_chaos_farm}
 
 
 # ------- Crafting Quality Perfection -----------
@@ -854,7 +881,13 @@ Hide
 
 """
 
-flasks = """
+
+tinctures = '''"Ironwood Tincture" "Prismatic Tincture" "Rosethorn Tincture" "Ashbark Tincture" "Borealwood Tincture" "Fulgurite Tincture" "Blood Sap Tincture" "Poisonberry Tincture" "Sporebloom Tincture" "Oakbranch Tincture"'''
+mana_flasks = ''' "Small Mana Flask" "Medium Mana Flask" "Large Mana Flask" "Greater Mana Flask" "Grand Mana Flask" "Giant Mana Flask" "Colossal Mana Flask" "Sacred Mana Flask" "Hallowed Mana Flask" "Sanctified Mana Flask" "Divine Mana Flask" "Eternal Mana Flask"'''
+life_flasks = ''' "Small Life Flask" "Medium Life Flask" "Large Life Flask" "Greater Life Flask" "Grand Life Flask" "Giant Life Flask" "Colossal Life Flask" "Sacred Life Flask" "Hallowed Life Flask" "Sanctified Life Flask" "Divine Life Flask" "Eternal Life Flask"'''
+hybrid_flasks = ''' "Small Hybrid Flask" "Medium Hybrid Flask" "Large Hybrid Flask" "Colossal Hybrid Flask" "Sacred Hybrid Flask" "Hallowed Hybrid Flask"'''
+
+flasks = f"""
 #============================================================================================================
 #	   Flasks
 #============================================================================================================
@@ -868,49 +901,30 @@ Show
 Show
 	Rarity Normal Magic
 	Class == "Utility Flasks"
-	ItemLevel >= 84
+	ItemLevel >= {flask_min_lvl}
 	SetFontSize 40
 
 Hide
 	Rarity Normal Magic
-	Class == "Tinctures"
-	BaseType == "Ironwood Tincture" "Prismatic Tincture" "Rosethorn Tincture" "Ashbark Tincture" "Borealwood Tincture" "Fulgurite Tincture" "Blood Sap Tincture" "Poisonberry Tincture" "Sporebloom Tincture" "Oakbranch Tincture"
-	Quality = 0
-	SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Normal Magic
-	Class == "Mana Flasks"
-	BaseType == "Small Mana Flask" "Medium Mana Flask" "Large Mana Flask" "Greater Mana Flask" "Grand Mana Flask" "Giant Mana Flask" "Colossal Mana Flask" "Sacred Mana Flask" "Hallowed Mana Flask" "Sanctified Mana Flask" "Divine Mana Flask" "Eternal Mana Flask"
-	Quality = 0
-	SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Normal Magic
-	Class == "Life Flasks"
-	BaseType == "Small Life Flask" "Medium Life Flask" "Large Life Flask" "Greater Life Flask" "Grand Life Flask" "Giant Life Flask" "Colossal Life Flask" "Sacred Life Flask" "Hallowed Life Flask" "Sanctified Life Flask" "Divine Life Flask" "Eternal Life Flask"
-	Quality = 0
-	SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Normal Magic
-	Class == "Hybrid Flasks"
-	BaseType == "Small Hybrid Flask" "Medium Hybrid Flask" "Large Hybrid Flask" "Colossal Hybrid Flask" "Sacred Hybrid Flask" "Hallowed Hybrid Flask"
-	Quality = 0
-	SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Normal Magic
+	AreaLevel >= 68
 	Class == "Utility Flasks"
 	BaseType == "Amethyst Flask" "Aquamarine Flask" "Basalt Flask" "Bismuth Flask" "Corundum Flask" "Diamond Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Ruby Flask" "Sapphire Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask" "Topaz Flask" # "Gold Flask" "Iron Flask"
 	Quality = 0
-	ItemLevel <= 83
+	ItemLevel <= {flask_min_lvl-1}
 	SetFontSize 30
 	DisableDropSound True
+	
+Hide
+	Rarity Normal Magic
+	BaseType == {tinctures + mana_flasks + life_flasks + hybrid_flasks}
+	Quality = 0
+	SetFontSize 30
+	DisableDropSound True
+	
+Show
+	Class == "Flask" "Hybrid Flasks" "Life Flasks" "Mana Flasks" "Tinctures" "Utility Flasks"
+	AreaLevel <= 67
+	
 """
 
 maps = """
@@ -1183,8 +1197,10 @@ Show
 
 """
 
+amulets = ''' "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"'''
+rings = ''' "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Bone Ring" "Amethyst Ring" "Prismatic Ring"'''
 
-hide_jew_gem_amul_belt_ring = """
+hide_jew_gem_amul_ring = f"""
 #============================================================================================================
 # Hide unwanted
 #============================================================================================================
@@ -1200,101 +1216,24 @@ Hide
 	# SetBackgroundColor 20 90 0 180
 	DisableDropSound True
 
-Hide
-	Class == "Skill Gems" "Support Gems"
-	TransfiguredGem False
-	Quality = 0
-	GemLevel < 15
-	SetFontSize 30
-	DisableDropSound True
-
 #
 # # Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
 #
 
 # ------ Amulets ------  Class == "Amulets"
 
-# UNFILTERED: "Unset Amulet" " "Focused Amulet" "Simplex Amulet" "Astrolabe Amulet" "Marble Amulet" "Seaglass Amulet" "Blue Pearl Amulet"
-
-Hide
-	Rarity Normal
-	Class == "Amulets"
-	BaseType == "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
-	SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Magic
-	AnyEnchantment False
-	FracturedItem False
-	HasCruciblePassiveTree False
-	Identified False
-	SynthesisedItem False
-	Class == "Amulets"
-	BaseType == "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
-	SetFontSize 30
-	DisableDropSound True
-
-# ------ Belts ------  Class == "Belts"
-
-# UNFILTERED: "Stygian Vise" "Micro-Distillery Belt" "Mechanical Belt" "Vanguard Belt" "Crystal Belt
-
-Hide
-	Rarity Rare
-	AnyEnchantment False
-	Corrupted False
-	FracturedItem False
-	HasCruciblePassiveTree False
-	Identified False
-	Mirrored False
-	SynthesisedItem False
-	Class == "Belts"
-	BaseType == "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
-	ItemLevel <= 85
-	SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Rare
-	Corrupted True
-	AnyEnchantment False
-	FracturedItem False
-	HasCruciblePassiveTree False
-	Identified False
-	Mirrored False
-	SynthesisedItem False
-	Class == "Belts"
-	BaseType == "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
-	ItemLevel < 70
-
-Hide
-	Rarity Magic
-	AnyEnchantment False
-	FracturedItem False
-	HasCruciblePassiveTree False
-	SynthesisedItem False
-	Class == "Belts"
-	BaseType == "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
-	SetFontSize 30
-	DisableDropSound True
-
-Hide
-	Rarity Normal
-	Class == "Belts"
-	BaseType == "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
-	SetFontSize 30
-	DisableDropSound True
+# ALL
+# "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
+# "Unset Amulet" " "Focused Amulet" "Simplex Amulet" "Astrolabe Amulet" "Marble Amulet" "Seaglass Amulet" "Blue Pearl Amulet"
 
 # ------ Rings ------  Class == "Rings"
 
 # ALL
 # "Breach Ring" "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Cogwork Ring" "Composite Ring" "Dusk Ring" "Geodesic Ring" "Gloam Ring" "Helical Ring" "Manifold Ring" "Nameless Ring" "Penumbra Ring" "Ratcheting Ring" "Shadowed Ring" "Tenebrous Ring" "Bone Ring" "Amethyst Ring" "Prismatic Ring" "Cerulean Ring" "Iolite Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
 
-
 Hide
 	Rarity Normal
-	Class == "Rings"
-	BaseType == "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Bone Ring" "Amethyst Ring" "Prismatic Ring"
+	BaseType == {amulets + rings}
 	SetFontSize 30
 	DisableDropSound True
 
@@ -1305,16 +1244,16 @@ Hide
 	HasCruciblePassiveTree False
 	Identified False
 	SynthesisedItem False
-	Class == "Rings"
-	BaseType == "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Bone Ring" "Amethyst Ring" "Prismatic Ring"
+	BaseType == {amulets + rings}
 	SetFontSize 30
 	DisableDropSound True
 	
 """
 
-
 # Body Armours 
-hide_barm = '''"Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Arena Plate" "Lordly Plate" "Bronze Plate" "Battle Plate" "Sun Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Crusader Plate" "Astral Plate" "Gladiator Plate" "Glorious Plate" "Titan Plate" "Legion Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Exquisite Leather" "Zodiac Leather" "Assassin's Garb" "Supreme Leather" "Astral Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Mage's Vestment" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Occultist's Vestment" "Widowsilk Robe" "Vaal Regalia" "Arcane Vestment" "Nightweave Robe" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Full Scale Armour" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Full Wyrmscale" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Full Wyvernscale" "Marshall's Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Holy Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Conquest Chainmail" "Elegant Ringmail" "Saint's Hauberk" "Saintly Chainmail" "Grand Ringmail" "Paladin's Hauberk" "Padded Vest" "Oiled Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat" "Blood Raiment" "Sadist Garb" "Carnal Armour" "Sanguine Raiment" "Torturer Garb"'''
+hide_barm = ''' "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Arena Plate" "Lordly Plate" "Bronze Plate" "Battle Plate" "Sun Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Crusader Plate" "Astral Plate" "Gladiator Plate" "Glorious Plate" "Titan Plate" "Legion Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Exquisite Leather" "Zodiac Leather" "Assassin's Garb" "Supreme Leather" "Astral Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Mage's Vestment" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Occultist's Vestment" "Widowsilk Robe" "Vaal Regalia" "Arcane Vestment" "Nightweave Robe" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Full Scale Armour" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Full Wyrmscale" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Full Wyvernscale" "Marshall's Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Holy Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Conquest Chainmail" "Elegant Ringmail" "Saint's Hauberk" "Saintly Chainmail" "Grand Ringmail" "Paladin's Hauberk" "Padded Vest" "Oiled Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat" "Blood Raiment" "Sadist Garb" "Carnal Armour" "Sanguine Raiment" "Torturer Garb"'''
+# Belts
+hide_belts = ''' "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"'''
 # Boots
 hide_boots = ''' "Iron Greaves" "Steel Greaves" "Plated Greaves" "Reinforced Greaves" "Antique Greaves" "Ancient Greaves" "Goliath Greaves" "Vaal Greaves" "Titan Greaves" "Precursor Greaves" "Rawhide Boots" "Goathide Boots" "Deerskin Boots" "Nubuck Boots" "Eelskin Boots" "Sharkskin Boots" "Shagreen Boots" "Stealth Boots" "Slink Boots" "Harpyskin Boots" "Wool Shoes" "Velvet Slippers" "Silk Slippers" "Scholar Boots" "Satin Slippers" "Samite Slippers" "Conjurer Boots" "Arcanist Slippers" "Sorcerer Boots" "Sage Slippers" "Leatherscale Boots" "Ironscale Boots" "Bronzescale Boots" "Steelscale Boots" "Serpentscale Boots" "Wyrmscale Boots" "Hydrascale Boots" "Dragonscale Boots" "Chimerascale Boots" "Chain Boots" "Ringmail Boots" "Mesh Boots" "Riveted Boots" "Zealot Boots" "Soldier Boots" "Legion Boots" "Crusader Boots" "Martyr Boots" "Wrapped Boots" "Strapped Boots" "Clasped Boots" "Shackled Boots" "Trapper Boots" "Ambush Boots" "Carnal Boots" "Assassin's Boots" "Murder Boots" "Infiltrator Boots"'''
 # Gloves
@@ -1323,6 +1262,8 @@ hide_gloves = ''' "Iron Gauntlets" "Plated Gauntlets" "Bronze Gauntlets" "Steel 
 hide_helmets = ''' "Iron Hat" "Cone Helmet" "Barbute Helmet" "Close Helmet" "Gladiator Helmet" "Reaver Helmet" "Siege Helmet" "Samnite Helmet" "Ezomyte Burgonet" "Royal Burgonet" "Eternal Burgonet" "General's Helmet" "Conqueror's Helmet" "Leather Cap" "Tricorne" "Leather Hood" "Wolf Pelt" "Hunter Hood" "Noble Tricorne" "Ursine Pelt" "Silken Hood" "Sinner Tricorne" "Lion Pelt" "Dire Pelt" "Grizzly Pelt" "Vine Circlet" "Iron Circlet" "Torture Cage" "Tribal Circlet" "Bone Circlet" "Lunaris Circlet" "Steel Circlet" "Necromancer Circlet" "Solaris Circlet" "Mind Cage" "Hubris Circlet" "Moonlit Circlet" "Sunfire Circlet" "Battered Helm" "Sallet" "Visored Sallet" "Gilded Sallet" "Secutor Helm" "Fencer Helm" "Lacquered Helmet" "Fluted Bascinet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Knight Helm" "Conquest Helmet" "Rusted Coif" "Soldier Helmet" "Great Helmet" "Crusader Helmet" "Aventail Helmet" "Zealot Helmet" "Great Crown" "Magistrate Crown" "Prophet Crown" "Praetor Crown" "Faithful Helmet" "Paladin Crown" "Scare Mask" "Plague Mask" "Iron Mask" "Festival Mask" "Golden Mask" "Raven Mask" "Callous Mask" "Regicide Mask" "Harlequin Mask" "Vaal Mask" "Deicide Mask" "Jester Mask" "Ancient Mask"'''
 # Shieldds
 hide_shields = ''' "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Vaal Buckler" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Vaal Spirit Shield" "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Mosaic Kite Shield" "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield"'''
+
+most_armours = hide_barm + hide_belts + hide_boots + hide_helmets + hide_shields # +  hide_gloves
 
 hide_armour = f"""
 # ------ Body Armours ------  Class == "Body Armours"
@@ -1335,6 +1276,12 @@ hide_armour = f"""
 # "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Holy Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Conquest Chainmail" "Elegant Ringmail" "Saint's Hauberk" "Saintly Chainmail" "Grand Ringmail" "Paladin's Hauberk" "Sacred Chainmail"
 # "Padded Vest" "Oiled Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat" "Blood Raiment" "Sadist Garb" "Carnal Armour" "Sanguine Raiment" "Torturer Garb" "Necrotic Armour"
 # "Grasping Mail" "Sacrificial Garb"
+
+# ------ Belts ------  Class == "Belts"
+
+# ALL
+# "Chain Belt" "Rustic Sash" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt"
+# "Stygian Vise" "Micro-Distillery Belt" "Mechanical Belt" "Vanguard Belt" "Crystal Belt
 
 # ------ Boots ------  Class == "Boots"
 
@@ -1389,7 +1336,7 @@ Hide
 	Identified False
 	Mirrored False
 	SynthesisedItem False
-	BaseType == {hide_barm + hide_boots + hide_gloves + hide_helmets + hide_shields}
+	BaseType =={most_armours + hide_gloves}
 	ItemLevel <= 85
 	SetFontSize 30
 	DisableDropSound True
@@ -1404,7 +1351,7 @@ Hide
 	Identified False
 	Mirrored False
 	SynthesisedItem False
-	BaseType == {hide_barm + hide_boots + hide_gloves + hide_helmets + hide_shields}
+	BaseType =={most_armours + hide_gloves}
 	ItemLevel < 70
 
  Hide
@@ -1416,7 +1363,7 @@ Hide
 	SynthesisedItem False
 	Identified False
 	Class == "Gloves"
-	BaseType == {hide_gloves}
+	BaseType =={hide_gloves}
 	SetFontSize 30
 	DisableDropSound True
 
@@ -1427,21 +1374,31 @@ Hide
 	FracturedItem False
 	HasCruciblePassiveTree False
 	SynthesisedItem False
-	BaseType == {hide_barm + hide_boots + hide_helmets + hide_shields}
+	BaseType =={most_armours + hide_gloves}
 	SetFontSize 30
 	DisableDropSound True
 
 Hide
 	Rarity Normal
 	AreaLevel >= 45
-	BaseType == {hide_barm + hide_boots + hide_gloves + hide_helmets + hide_shields}
+	BaseType =={most_armours + hide_gloves}
 	SetFontSize 30
 	DisableDropSound True
+
+Show
+	Rarity Rare Magic
+	AreaLevel <= 67
+	BaseType =={most_armours + hide_gloves}
+
+Show
+	Rarity Normal
+	AreaLevel <= 45
+	BaseType =={most_armours + hide_gloves}
 
 """
 
 # Bows
-hide_bows = '''"Crude Bow" "Short Bow" "Long Bow" "Composite Bow" "Recurve Bow" "Bone Bow" "Royal Bow" "Death Bow" "Grove Bow" "Reflex Bow" "Decurve Bow" "Compound Bow" "Sniper Bow" "Ivory Bow" "Highborn Bow" "Decimation Bow" "Thicket Bow" "Citadel Bow" "Spine Bow"'''
+hide_bows = ''' "Crude Bow" "Short Bow" "Long Bow" "Composite Bow" "Recurve Bow" "Bone Bow" "Royal Bow" "Death Bow" "Grove Bow" "Reflex Bow" "Decurve Bow" "Compound Bow" "Sniper Bow" "Ivory Bow" "Highborn Bow" "Decimation Bow" "Thicket Bow" "Citadel Bow" "Spine Bow"'''
 # Claws
 hide_claws = ''' "Nailed Fist" "Sharktooth Claw" "Awl" "Cat's Paw" "Blinder" "Timeworn Claw" "Sparkling Claw" "Fright Claw" "Double Claw" "Thresher Claw" "Gouger" "Tiger's Paw" "Gut Ripper" "Prehistoric Claw" "Noble Claw" "Eagle Claw" "Twin Claw" "Great White Claw" "Throat Stabber" "Hellion's Paw" "Terror Claw"'''
 # Daggers
@@ -1472,8 +1429,9 @@ hide_thswords = ''' "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Swo
 hide_wands = ''' "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Calling Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Coiled Wand" "Convening Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand"'''
 # Warstaves
 hide_warstaves = ''' "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Foul Staff" "Ezomyte Staff"'''
-	
 
+# most_weapons = hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes + hide_thmaces + hide_thswords + hide_wands + hide_warstaves
+most_weapons = hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes + hide_thmaces + hide_thswords + hide_warstaves # + hide_quivers + hide_wands
 
 hide_weapons = f"""
 # ------ Bows ------  Class == "Bows"
@@ -1567,8 +1525,6 @@ hide_weapons = f"""
 # "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Potentiality Rod" "Foul Staff" "Ezomyte Staff" "Maelström Staff" "Judgement Staff" "Eventuality Rod"
 #  "Potentiality Rod" "Maelström Staff" "Judgement Staff" "Eventuality Rod"
 
-
-
 Hide
 	Rarity Rare
 	AreaLevel >= 68
@@ -1579,7 +1535,7 @@ Hide
 	Identified False
 	Mirrored False
 	SynthesisedItem False
-	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes + hide_thmaces + hide_thswords + hide_wands + hide_warstaves}
+	BaseType =={most_weapons + hide_quivers + hide_wands}
 	ItemLevel <= 85
 	SetFontSize 30
 	DisableDropSound True
@@ -1594,7 +1550,7 @@ Hide
 	Identified False
 	Mirrored False
 	SynthesisedItem False
-	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes + hide_thmaces + hide_thswords + hide_wands + hide_warstaves}
+	BaseType =={most_weapons + hide_wands}
 	ItemLevel < 70
 
 Hide
@@ -1604,7 +1560,7 @@ Hide
 	FracturedItem False
 	HasCruciblePassiveTree False
 	SynthesisedItem False
-	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes + hide_thmaces + hide_thswords + hide_warstaves}
+	BaseType =={most_weapons + hide_quivers}
 	SetFontSize 30
 	DisableDropSound True
 
@@ -1616,22 +1572,30 @@ Hide
 	HasCruciblePassiveTree False
 	SynthesisedItem False
 	Identified False
-	BaseType == {hide_wands}
+	BaseType =={hide_wands}
 	SetFontSize 30
 	DisableDropSound True
 
 Hide
 	Rarity Normal
 	AreaLevel >= 45
-	BaseType == {hide_bows + hide_claws + hide_daggers + hide_ohaxes + hide_ohmaces + hide_ohswords + hide_quivers + hide_rdaggers + hide_scepters + hide_staves + hide_tohswords + hide_thaxes + hide_thmaces + hide_thswords + hide_wands + hide_warstaves}
+	BaseType =={most_weapons + hide_quivers + hide_wands}
 	SetFontSize 30
 	DisableDropSound True
+
+Show
+	Rarity Magic Rare
+	AreaLevel <= 67
+	BaseType =={most_weapons + hide_quivers + hide_wands}
+	
+Show
+	Rarity Normal
+	AreaLevel <= 44
+	BaseType =={most_weapons + hide_quivers + hide_wands}
 	
 """
 
-
-
-hide = hide_jew_gem_amul_belt_ring + hide_armour + hide_weapons
+hide = hide_jew_gem_amul_ring + hide_armour + hide_weapons
 
 ee = """
 #============================================================================================================
@@ -1651,7 +1615,6 @@ Show
 	PlayEffect Pink
 	MinimapIcon 0 Pink Circle
 """
-
 
 s = header + color_text + color_border + color_background + custom1 + currency + gems_jewels + weapon_armour + flasks + maps + don_now_jet + hide + ee
 
